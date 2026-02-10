@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/arrow",
+  "criteria": {
+    "crafted_spectral_arrow": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:spectral_arrow"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:spectral_arrow"
+    },
+    "title": {
+      "translate": "item.minecraft.spectral_arrow"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_spectral_arrow"
+    ]
+  ]
+}

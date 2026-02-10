@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/iron_pickaxe",
+  "criteria": {
+    "crafted_golden_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_pickaxe"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_pickaxe"
+    },
+    "title": {
+      "translate": "item.minecraft.golden_pickaxe"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_golden_pickaxe"
+    ]
+  ]
+}

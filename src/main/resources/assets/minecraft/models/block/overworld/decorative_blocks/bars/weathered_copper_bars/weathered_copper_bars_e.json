@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/overworld/decorative_blocks/bars/template_bars_e",
+  "textures": {
+    "bars": "minecraft:block/weathered_copper_bars",
+    "particle": "minecraft:block/weathered_copper_bars"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/overworld/luminous_blocks/lanterns/lantern/lantern_hanging",
+  "textures": {
+    "lantern": "minecraft:block/lantern"
+  }
+}

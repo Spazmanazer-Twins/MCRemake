@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/copper_axe",
+  "criteria": {
+    "crafted_iron_axe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_axe"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_axe"
+    },
+    "title": {
+      "translate": "item.minecraft.iron_axe"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_iron_axe"
+    ]
+  ]
+}

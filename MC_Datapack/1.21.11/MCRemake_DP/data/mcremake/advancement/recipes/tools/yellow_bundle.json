@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/orange_bundle",
+  "criteria": {
+    "crafted_yellow_bundle": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_bundle"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:yellow_bundle"
+    },
+    "title": {
+      "translate": "item.minecraft.yellow_bundle"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_yellow_bundle"
+    ]
+  ]
+}

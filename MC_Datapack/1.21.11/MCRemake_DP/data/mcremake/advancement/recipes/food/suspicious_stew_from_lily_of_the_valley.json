@@ -1,0 +1,47 @@
+{
+  "parent": "mcremake:recipes/food/suspicious_stew_from_dandelion",
+  "criteria": {
+    "has_lily_of_the_valley": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lily_of_the_valley"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:suspicious_stew_from_lily_of_the_valley"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": "block.minecraft.lily_of_the_valley"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lily_of_the_valley"
+    },
+    "title": {
+      "translate": "item.minecraft.suspicious_stew"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lily_of_the_valley"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:suspicious_stew_from_lily_of_the_valley"
+    ]
+  }
+}

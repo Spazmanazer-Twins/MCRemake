@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/netherite_sword_smithing",
+  "criteria": {
+    "crafted_netherite_spear": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_spear_smithing"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_spear"
+    },
+    "title": {
+      "translate": "item.minecraft.netherite_spear"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_netherite_spear"
+    ]
+  ]
+}

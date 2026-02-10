@@ -1,0 +1,35 @@
+{ 
+  "parent": "mcremake:recipes/combat/root",
+  "criteria": {
+    "smithing_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smithing_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:smithing_table"
+    },
+    "title": {
+      "translate": "block.minecraft.smithing_table"
+    }
+  },
+  "requirements": [
+    [
+      "smithing_table"
+    ]
+  ]
+}

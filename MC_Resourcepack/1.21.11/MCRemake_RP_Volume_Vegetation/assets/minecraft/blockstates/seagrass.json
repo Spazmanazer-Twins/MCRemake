@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "minecraft:block/overworld/plants/grass/seagrass/seagrass_1"
+      },
+	  {
+        "model": "minecraft:block/overworld/plants/grass/seagrass/seagrass_2"
+      }
+    ]
+  }
+}

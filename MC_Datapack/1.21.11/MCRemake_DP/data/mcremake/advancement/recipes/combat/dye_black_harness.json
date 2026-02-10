@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/dye_gray_harness",
+  "criteria": {
+    "crafted_black_harness": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_black_harness"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:black_harness"
+    },
+    "title": {
+      "translate": "item.minecraft.black_harness"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_black_harness"
+    ]
+  ]
+}

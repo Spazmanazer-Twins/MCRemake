@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/overworld/luminous_blocks/lanterns/weathered_copper_lantern/weathered_copper_lantern_hanging",
+  "textures": {
+    "lantern": "minecraft:block/weathered_copper_lantern"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/overworld/luminous_blocks/redstone_lamp/redstone_lamp"
+  }
+}

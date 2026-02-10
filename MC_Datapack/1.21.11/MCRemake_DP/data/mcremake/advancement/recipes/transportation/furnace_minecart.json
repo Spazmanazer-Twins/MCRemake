@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/transportation/chest_minecart",
+  "criteria": {
+    "crafted_furnace_minecart": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:furnace_minecart"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:furnace_minecart"
+    },
+    "title": {
+      "translate": "item.minecraft.furnace_minecart"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_furnace_minecart"
+    ]
+  ]
+}

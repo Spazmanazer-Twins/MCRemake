@@ -1,0 +1,1 @@
+function mcremake:tick/mcremake/earth/earth_main

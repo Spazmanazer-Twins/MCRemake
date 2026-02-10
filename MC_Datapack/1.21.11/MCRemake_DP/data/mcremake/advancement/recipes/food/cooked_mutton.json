@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/food/cooked_porkchop",
+  "criteria": {
+    "crafted_cooked_mutton": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_mutton"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cooked_mutton"
+    },
+    "title": {
+      "translate": "item.minecraft.cooked_mutton"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_cooked_mutton"
+    ]
+  ]
+}

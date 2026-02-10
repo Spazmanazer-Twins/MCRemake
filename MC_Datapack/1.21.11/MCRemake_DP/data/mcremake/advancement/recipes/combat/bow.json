@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/crafting_table",
+  "criteria": {
+    "crafted_bow": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bow"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "item.minecraft.bow"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_bow"
+    ]
+  ]
+}

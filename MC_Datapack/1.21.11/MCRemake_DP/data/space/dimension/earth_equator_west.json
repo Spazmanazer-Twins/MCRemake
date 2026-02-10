@@ -1,0 +1,11 @@
+{
+  "type": "space:earth_equator_west",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "preset": "minecraft:overworld"
+    },
+    "settings": "space:earth_equator_west"
+  }
+}

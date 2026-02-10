@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "minecraft:block/overworld/luminous_blocks/lanterns/copper_lantern/copper_lantern"
+    },
+    "hanging=true": {
+      "model": "minecraft:block/overworld/luminous_blocks/lanterns/copper_lantern/copper_lantern_hanging"
+    }
+  }
+}

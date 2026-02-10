@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/black_harness",
+  "criteria": {
+    "crafted_brown_harness": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_harness"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:brown_harness"
+    },
+    "title": {
+      "translate": "item.minecraft.brown_harness"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_brown_harness"
+    ]
+  ]
+}

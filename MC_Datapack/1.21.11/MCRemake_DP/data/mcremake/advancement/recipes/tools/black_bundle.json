@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/gray_bundle",
+  "criteria": {
+    "crafted_black_bundle": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:black_bundle"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:black_bundle"
+    },
+    "title": {
+      "translate": "item.minecraft.black_bundle"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_black_bundle"
+    ]
+  ]
+}

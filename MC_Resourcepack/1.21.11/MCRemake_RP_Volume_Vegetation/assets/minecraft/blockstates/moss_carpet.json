@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/overworld/plants/moss/moss/moss_carpet"
+    }
+  }
+}

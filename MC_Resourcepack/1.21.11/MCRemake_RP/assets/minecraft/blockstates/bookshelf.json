@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/overworld/functional_blocks/bookshelf/bookshelf"
+    }
+  }
+}

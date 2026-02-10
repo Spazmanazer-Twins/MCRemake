@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/orange_harness",
+  "criteria": {
+    "crafted_yellow_harness": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:yellow_harness"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:yellow_harness"
+    },
+    "title": {
+      "translate": "item.minecraft.yellow_harness"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_yellow_harness"
+    ]
+  ]
+}

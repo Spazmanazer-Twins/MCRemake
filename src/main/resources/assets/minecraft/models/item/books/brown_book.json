@@ -1,0 +1,121 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Spazmanazer Twins",
+	"texture_size": [64, 64],
+	"textures": {
+		"particle": "item/books/books_1",
+		"book": "item/books/books_1"
+	},
+	"elements": [
+		{
+			"from": [2.5, 0, 5.5],
+			"to": [13.5, 13, 5.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8]},
+			"faces": {
+				"north": {"uv": [11.75, 3.75, 14.5, 0.5], "texture": "#book"}
+			}
+		},
+		{
+			"from": [2.5, 0, 10.5],
+			"to": [13.5, 13, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8]},
+			"faces": {
+				"south": {"uv": [14.5, 3.75, 11.75, 0.5], "texture": "#book"}
+			}
+		},
+		{
+			"from": [13.5, 0, 5.5],
+			"to": [13.5, 13, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8]},
+			"faces": {
+				"east": {"uv": [10.5, 0.5, 11.75, 3.75], "texture": "#book"}
+			}
+		},
+		{
+			"from": [2.5, 0, 5.5],
+			"to": [2.5, 13, 6.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8]},
+			"faces": {
+				"west": {"uv": [14.25, 0.5, 14.5, 3.75], "texture": "#book"}
+			}
+		},
+		{
+			"from": [2.5, 0, 6.5],
+			"to": [2.5, 13, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8]},
+			"faces": {
+				"west": {"uv": [15.5, 3.75, 14.75, 0.5], "texture": "#book"}
+			}
+		},
+		{
+			"from": [2.5, 0, 9.5],
+			"to": [2.5, 13, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8]},
+			"faces": {
+				"west": {"uv": [14.25, 0.5, 14.5, 3.75], "texture": "#book"}
+			}
+		},
+		{
+			"from": [2.5, 13, 5.5],
+			"to": [13.5, 13, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8]},
+			"faces": {
+				"up": {"uv": [13.25, 3.75, 10.5, 5], "texture": "#book"}
+			}
+		},
+		{
+			"from": [2.5, 0, 5.5],
+			"to": [13.5, 0, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8]},
+			"faces": {
+				"down": {"uv": [13.25, 5, 10.5, 3.75], "texture": "#book"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [-6, 2, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"translation": [-6, 2, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [-30, -180, 0],
+			"translation": [-9, 6, -6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-30, -180, 0],
+			"translation": [-9, 6, -6]
+		},
+		"ground": {
+			"rotation": [30, 0, 0],
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [-30, -180, 30],
+			"translation": [0.5, 1, 0],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"head": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 9, 1.5]
+		},
+		"fixed": {
+			"translation": [0, 0, -2.5]
+		},
+		"on_shelf": {
+			"rotation": [0, -180, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "brown_book",
+			"origin": [8, 6.5, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7]
+		}
+	]
+}

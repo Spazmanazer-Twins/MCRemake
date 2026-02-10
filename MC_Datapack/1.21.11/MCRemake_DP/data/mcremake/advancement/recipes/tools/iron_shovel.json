@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/copper_shovel",
+  "criteria": {
+    "crafted_iron_shovel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_shovel"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_shovel"
+    },
+    "title": {
+      "translate": "item.minecraft.iron_shovel"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_iron_shovel"
+    ]
+  ]
+}

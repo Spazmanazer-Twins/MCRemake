@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "way_to_hell": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+		"translate": "mcremake.advancement.mcremake.description",
+		"color":"white"
+	},
+	"background": "minecraft:block/cracked_deepslate_tiles",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bedrock"
+    },
+    "title": {
+      "translate": "mcremake.advancement.mcremake"
+    }
+  },
+  "requirements": [
+    [
+      "way_to_hell"
+    ]
+  ]
+}

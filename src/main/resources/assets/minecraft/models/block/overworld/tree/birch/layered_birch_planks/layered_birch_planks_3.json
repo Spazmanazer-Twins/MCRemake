@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/templates_and_shapes/layers/layer_3",
+  "textures": {
+    "base": "minecraft:block/birch_planks"
+  }
+}

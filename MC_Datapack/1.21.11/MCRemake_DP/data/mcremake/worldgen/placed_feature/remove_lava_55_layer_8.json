@@ -1,0 +1,27 @@
+{
+  "feature": "mcremake:remove_lava_55",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 256
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -567
+        },
+        "max_inclusive": {
+          "absolute": -503
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

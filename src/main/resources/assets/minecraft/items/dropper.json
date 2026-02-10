@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/overworld/functional_blocks/redstone/dropper/dropper"
+  }
+}

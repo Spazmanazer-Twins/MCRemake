@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/fishing_rod",
+  "criteria": {
+    "crafted_flint_and_steel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:flint_and_steel"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:flint_and_steel"
+    },
+    "title": {
+      "translate": "item.minecraft.flint_and_steel"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_flint_and_steel"
+    ]
+  ]
+}

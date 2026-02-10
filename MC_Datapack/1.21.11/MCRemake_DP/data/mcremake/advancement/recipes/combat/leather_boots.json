@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/turtle_helmet",
+  "criteria": {
+    "crafted_leather_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:leather_boots"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:leather_boots"
+    },
+    "title": {
+      "translate": "item.minecraft.leather_boots"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_leather_boots"
+    ]
+  ]
+}

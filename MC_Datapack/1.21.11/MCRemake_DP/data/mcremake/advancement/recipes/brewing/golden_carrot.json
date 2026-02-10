@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/brewing/glistering_melon_slice",
+  "criteria": {
+    "crafted_golden_carrot": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_carrot"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_carrot"
+    },
+    "title": {
+      "translate": "item.minecraft.golden_carrot"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_golden_carrot"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/light_gray_bundle",
+  "criteria": {
+    "crafted_gray_bundle": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:gray_bundle"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:gray_bundle"
+    },
+    "title": {
+      "translate": "item.minecraft.gray_bundle"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_gray_bundle"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/transportation/dark_oak_chest_boat",
+  "criteria": {
+    "crafted_mangrove_chest_boat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mangrove_chest_boat"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:mangrove_chest_boat"
+    },
+    "title": {
+      "translate": "item.minecraft.mangrove_chest_boat"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_mangrove_chest_boat"
+    ]
+  ]
+}

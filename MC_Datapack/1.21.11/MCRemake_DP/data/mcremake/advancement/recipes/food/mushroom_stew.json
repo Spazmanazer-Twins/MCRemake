@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/food/bowl",
+  "criteria": {
+    "crafted_mushroom_stew": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:mushroom_stew"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:mushroom_stew"
+    },
+    "title": {
+      "translate": "item.minecraft.mushroom_stew"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_mushroom_stew"
+    ]
+  ]
+}

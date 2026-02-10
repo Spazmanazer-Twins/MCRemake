@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/brewing/glass_bottle",
+  "criteria": {
+    "crafted_fermented_spider_eye": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:fermented_spider_eye"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:fermented_spider_eye"
+    },
+    "title": {
+      "translate": "item.minecraft.fermented_spider_eye"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_fermented_spider_eye"
+    ]
+  ]
+}

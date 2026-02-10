@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/food/cake",
+  "criteria": {
+    "crafted_golden_apple": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_apple"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "item.minecraft.golden_apple"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_golden_apple"
+    ]
+  ]
+}

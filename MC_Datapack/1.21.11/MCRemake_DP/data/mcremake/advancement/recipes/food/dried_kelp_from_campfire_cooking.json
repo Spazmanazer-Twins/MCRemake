@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/food/cooked_salmon_from_campfire_cooking",
+  "criteria": {
+    "crafted_dried_kelp_from_campfire_cooking": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dried_kelp_from_campfire_cooking"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:dried_kelp"
+    },
+    "title": {
+      "translate": "item.minecraft.dried_kelp"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_dried_kelp_from_campfire_cooking"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/transportation/rail",
+  "criteria": {
+    "crafted_powered_rail": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:powered_rail"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:powered_rail"
+    },
+    "title": {
+      "translate": "block.minecraft.powered_rail"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_powered_rail"
+    ]
+  ]
+}

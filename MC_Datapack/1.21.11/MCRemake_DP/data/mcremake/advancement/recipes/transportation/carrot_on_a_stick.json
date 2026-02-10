@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/transportation/crafting_table",
+  "criteria": {
+    "crafted_carrot_on_a_stick": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:carrot_on_a_stick"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:carrot_on_a_stick"
+    },
+    "title": {
+      "translate": "item.minecraft.carrot_on_a_stick"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_carrot_on_a_stick"
+    ]
+  ]
+}

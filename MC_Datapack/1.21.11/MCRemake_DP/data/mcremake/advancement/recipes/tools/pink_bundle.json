@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/magenta_bundle",
+  "criteria": {
+    "crafted_pink_bundle": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_bundle"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:pink_bundle"
+    },
+    "title": {
+      "translate": "item.minecraft.pink_bundle"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_pink_bundle"
+    ]
+  ]
+}

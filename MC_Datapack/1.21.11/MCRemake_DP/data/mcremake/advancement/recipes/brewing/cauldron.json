@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/brewing/crafting_table",
+  "criteria": {
+    "crafted_cauldron": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cauldron"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cauldron"
+    },
+    "title": {
+      "translate": "item.minecraft.cauldron"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_cauldron"
+    ]
+  ]
+}

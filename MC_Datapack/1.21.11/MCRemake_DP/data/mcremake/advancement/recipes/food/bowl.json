@@ -1,0 +1,35 @@
+{ 
+  "parent": "mcremake:recipes/food/crafting_table",
+  "criteria": {
+    "bowl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bowl"
+    },
+    "title": {
+      "translate": "item.minecraft.bowl"
+    }
+  },
+  "requirements": [
+    [
+      "bowl"
+    ]
+  ]
+}

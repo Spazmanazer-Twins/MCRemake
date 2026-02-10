@@ -1,0 +1,8 @@
+{
+  "feature": "mcremake:end_spike",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

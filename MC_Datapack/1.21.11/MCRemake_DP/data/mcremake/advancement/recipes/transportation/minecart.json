@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/transportation/crafting_table",
+  "criteria": {
+    "crafted_minecart": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:minecart"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "translate": "item.minecraft.minecart"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_minecart"
+    ]
+  ]
+}

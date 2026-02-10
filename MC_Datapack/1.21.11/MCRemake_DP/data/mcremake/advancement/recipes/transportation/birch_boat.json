@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/transportation/spruce_boat",
+  "criteria": {
+    "crafted_birch_boat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:birch_boat"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:birch_boat"
+    },
+    "title": {
+      "translate": "item.minecraft.birch_boat"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_birch_boat"
+    ]
+  ]
+}

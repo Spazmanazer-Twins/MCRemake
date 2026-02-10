@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "north=false,south=false,west=false,east=false": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars"
+    },
+	"north=false,south=false,west=false,east=true": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars_e"
+    },
+	"north=true,south=false,west=false,east=false": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars_n"
+    },
+	"north=true,south=false,west=false,east=true": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars_ne"
+    },
+	"north=true,south=true,west=false,east=false": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars_ns"
+    },
+	"north=true,south=true,west=false,east=true": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars_nse"
+    },
+	"north=true,south=true,west=true,east=false": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars_nsw"
+    },
+	"north=true,south=true,west=true,east=true": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars_nswe"
+    },
+	"north=true,south=false,west=true,east=false": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars_nw"
+    },
+	"north=true,south=false,west=true,east=true": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars_nwe"
+    },
+	"north=false,south=true,west=false,east=false": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars_s"
+    },
+	"north=false,south=true,west=false,east=true": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars_se"
+    },
+	"north=false,south=true,west=true,east=false": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars_sw"
+    },
+	"north=false,south=true,west=true,east=true": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars_swe"
+    },
+	"north=false,south=false,west=true,east=false": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars_w"
+    },
+	"north=false,south=false,west=true,east=true": {
+      "model": "minecraft:block/overworld/decorative_blocks/bars/copper_bars/copper_bars_we"
+    }
+  }
+}

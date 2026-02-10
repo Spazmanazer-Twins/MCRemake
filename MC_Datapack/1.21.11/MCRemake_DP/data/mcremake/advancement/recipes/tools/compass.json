@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/lead",
+  "criteria": {
+    "crafted_compass": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:compass"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:compass"
+    },
+    "title": {
+      "translate": "item.minecraft.compass"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_compass"
+    ]
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "minecraft:block/overworld/functional_blocks/redstone/dropper/dropper_vertical",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "minecraft:block/overworld/functional_blocks/redstone/dropper/dropper",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "minecraft:block/overworld/functional_blocks/redstone/dropper/dropper"
+    },
+    "facing=south": {
+      "model": "minecraft:block/overworld/functional_blocks/redstone/dropper/dropper",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "minecraft:block/overworld/functional_blocks/redstone/dropper/dropper_vertical"
+    },
+    "facing=west": {
+      "model": "minecraft:block/overworld/functional_blocks/redstone/dropper/dropper",
+      "y": 270
+    }
+  }
+}

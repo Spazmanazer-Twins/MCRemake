@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/overworld/functional_blocks/crafting_table/crafting_table"
+    }
+  }
+}

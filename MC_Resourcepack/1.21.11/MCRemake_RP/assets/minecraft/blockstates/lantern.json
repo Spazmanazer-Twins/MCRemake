@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "minecraft:block/overworld/luminous_blocks/lanterns/lantern/lantern"
+    },
+    "hanging=true": {
+      "model": "minecraft:block/overworld/luminous_blocks/lanterns/lantern/lantern_hanging"
+    }
+  }
+}

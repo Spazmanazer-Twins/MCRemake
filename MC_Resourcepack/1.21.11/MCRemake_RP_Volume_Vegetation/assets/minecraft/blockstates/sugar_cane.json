@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/overworld/plants/sugar_cane/sugar_cane"
+    }
+  }
+}

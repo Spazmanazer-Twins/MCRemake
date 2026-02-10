@@ -1,0 +1,35 @@
+{ 
+  "parent": "mcremake:recipes/root",
+  "criteria": {
+    "food": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": "mcremake.advancement.recipes.food.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bread"
+    },
+    "title": {
+      "translate": "mcremake.advancement.recipes.food"
+    }
+  },
+  "requirements": [
+    [
+      "food"
+    ]
+  ]
+}

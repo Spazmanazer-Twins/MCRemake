@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/templates_and_shapes/layers/layer_16",
+  "textures": {
+    "base": "minecraft:block/mangrove_planks"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/brewing/blaze_powder",
+  "criteria": {
+    "crafted_glass_bottle": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:glass_bottle"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:glass_bottle"
+    },
+    "title": {
+      "translate": "item.minecraft.glass_bottle"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_glass_bottle"
+    ]
+  ]
+}

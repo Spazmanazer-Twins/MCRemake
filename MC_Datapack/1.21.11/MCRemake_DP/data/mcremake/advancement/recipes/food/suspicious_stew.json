@@ -1,0 +1,35 @@
+{ 
+  "parent": "mcremake:recipes/food/bowl",
+  "criteria": {
+    "suspicious_stew": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:suspicious_stew"
+    },
+    "title": {
+      "translate": "item.minecraft.suspicious_stew"
+    }
+  },
+  "requirements": [
+    [
+      "suspicious_stew"
+    ]
+  ]
+}

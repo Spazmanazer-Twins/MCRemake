@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/crafting_table",
+  "criteria": {
+    "crafted_bundle": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:bundle"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bundle"
+    },
+    "title": {
+      "translate": "item.minecraft.bundle"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_bundle"
+    ]
+  ]
+}

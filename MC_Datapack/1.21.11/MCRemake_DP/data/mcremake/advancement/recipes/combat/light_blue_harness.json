@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/cyan_harness",
+  "criteria": {
+    "crafted_light_blue_harness": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_harness"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:light_blue_harness"
+    },
+    "title": {
+      "translate": "item.minecraft.light_blue_harness"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_light_blue_harness"
+    ]
+  ]
+}

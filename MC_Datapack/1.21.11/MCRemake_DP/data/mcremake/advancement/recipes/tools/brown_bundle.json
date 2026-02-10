@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/black_bundle",
+  "criteria": {
+    "crafted_brown_bundle": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brown_bundle"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:brown_bundle"
+    },
+    "title": {
+      "translate": "item.minecraft.brown_bundle"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_brown_bundle"
+    ]
+  ]
+}

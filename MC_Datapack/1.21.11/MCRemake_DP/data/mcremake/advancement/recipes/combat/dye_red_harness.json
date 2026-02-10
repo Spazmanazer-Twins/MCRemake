@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/dye_brown_harness",
+  "criteria": {
+    "crafted_red_harness": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_red_harness"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:red_harness"
+    },
+    "title": {
+      "translate": "item.minecraft.red_harness"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_red_harness"
+    ]
+  ]
+}

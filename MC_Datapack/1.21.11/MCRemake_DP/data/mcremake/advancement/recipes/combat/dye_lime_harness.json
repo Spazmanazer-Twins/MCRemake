@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/dye_yellow_harness",
+  "criteria": {
+    "crafted_lime_harness": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_lime_harness"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lime_harness"
+    },
+    "title": {
+      "translate": "item.minecraft.lime_harness"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_lime_harness"
+    ]
+  ]
+}

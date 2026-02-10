@@ -1,0 +1,35 @@
+{ 
+  "parent": "",
+  "criteria": {
+    "smoker": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smoker"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:smoker"
+    },
+    "title": {
+      "translate": "block.minecraft.smoker"
+    }
+  },
+  "requirements": [
+    [
+      "smoker"
+    ]
+  ]
+}

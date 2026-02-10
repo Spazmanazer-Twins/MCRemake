@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/copper_sword",
+  "criteria": {
+    "crafted_iron_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_sword"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "item.minecraft.iron_sword"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_iron_sword"
+    ]
+  ]
+}

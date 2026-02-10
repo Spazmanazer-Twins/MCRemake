@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/overworld/decorative_blocks/chains/template_chain",
+  "textures": {
+    "texture": "minecraft:block/weathered_copper_chain"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/bundle",
+  "criteria": {
+    "crafted_white_bundle": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_bundle"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:white_bundle"
+    },
+    "title": {
+      "translate": "item.minecraft.white_bundle"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_white_bundle"
+    ]
+  ]
+}

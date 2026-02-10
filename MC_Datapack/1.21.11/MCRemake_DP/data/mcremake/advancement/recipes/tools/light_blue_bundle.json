@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/cyan_bundle",
+  "criteria": {
+    "crafted_light_blue_bundle": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_blue_bundle"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:light_blue_bundle"
+    },
+    "title": {
+      "translate": "item.minecraft.light_blue_bundle"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_light_blue_bundle"
+    ]
+  ]
+}

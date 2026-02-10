@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/brown_bundle",
+  "criteria": {
+    "crafted_red_bundle": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:red_bundle"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:red_bundle"
+    },
+    "title": {
+      "translate": "item.minecraft.red_bundle"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_red_bundle"
+    ]
+  ]
+}

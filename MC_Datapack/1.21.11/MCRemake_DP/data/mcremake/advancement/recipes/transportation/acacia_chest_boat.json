@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/transportation/jungle_chest_boat",
+  "criteria": {
+    "crafted_acacia_chest_boat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_chest_boat"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:acacia_chest_boat"
+    },
+    "title": {
+      "translate": "item.minecraft.acacia_chest_boat"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_acacia_chest_boat"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/iron_boots",
+  "criteria": {
+    "crafted_golden_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_boots"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_boots"
+    },
+    "title": {
+      "translate": "item.minecraft.golden_boots"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_golden_boots"
+    ]
+  ]
+}

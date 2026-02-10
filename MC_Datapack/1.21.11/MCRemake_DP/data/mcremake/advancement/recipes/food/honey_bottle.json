@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/food/cookie",
+  "criteria": {
+    "crafted_honey_bottle": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:honey_bottle"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:honey_bottle"
+    },
+    "title": {
+      "translate": "item.minecraft.honey_bottle"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_honey_bottle"
+    ]
+  ]
+}

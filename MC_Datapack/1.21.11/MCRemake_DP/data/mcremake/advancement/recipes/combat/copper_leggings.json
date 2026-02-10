@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/leather_leggings",
+  "criteria": {
+    "crafted_copper_leggings": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_leggings"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:copper_leggings"
+    },
+    "title": {
+      "translate": "item.minecraft.copper_leggings"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_copper_leggings"
+    ]
+  ]
+}

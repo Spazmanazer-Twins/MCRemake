@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/wooden_axe",
+  "criteria": {
+    "crafted_stone_axe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_axe"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:stone_axe"
+    },
+    "title": {
+      "translate": "item.minecraft.stone_axe"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_stone_axe"
+    ]
+  ]
+}

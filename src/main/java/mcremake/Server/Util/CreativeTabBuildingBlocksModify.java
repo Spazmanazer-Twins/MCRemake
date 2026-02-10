@@ -1,0 +1,214 @@
+package mcremake.Server.Util;
+
+import mcremake.Server.Init.Minecraft.Blocks_Init;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.Items;
+
+public class CreativeTabBuildingBlocksModify {
+
+    public static void init() {
+        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.BUILDING_BLOCKS)
+            .register(entries -> {
+                entries.getDisplayStacks().clear();// вкладка отображения
+                entries.getSearchTabStacks().clear();// вкладка поиска
+
+
+
+                entries.accept(Items.OAK_LOG);
+                entries.accept(Items.OAK_WOOD);
+                entries.accept(Items.STRIPPED_OAK_LOG);
+                entries.accept(Items.STRIPPED_OAK_WOOD);
+                entries.accept(Items.OAK_PLANKS);
+                entries.accept(Items.OAK_STAIRS);
+                entries.accept(Items.OAK_SLAB);
+                entries.accept(Items.OAK_FENCE);
+                entries.accept(Items.OAK_FENCE_GATE);
+                entries.accept(Items.OAK_DOOR);
+                entries.accept(Items.OAK_TRAPDOOR);
+                entries.accept(Items.OAK_PRESSURE_PLATE);
+                entries.accept(Items.OAK_BUTTON);
+                entries.accept(Blocks_Init.OAK_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_OAK_PLANKS.asItem());
+
+                entries.accept(Items.SPRUCE_LOG);
+                entries.accept(Items.SPRUCE_WOOD);
+                entries.accept(Items.STRIPPED_SPRUCE_LOG);
+                entries.accept(Items.STRIPPED_SPRUCE_WOOD);
+                entries.accept(Items.SPRUCE_PLANKS);
+                entries.accept(Items.SPRUCE_STAIRS);
+                entries.accept(Items.SPRUCE_SLAB);
+                entries.accept(Items.SPRUCE_FENCE);
+                entries.accept(Items.SPRUCE_FENCE_GATE);
+                entries.accept(Items.SPRUCE_DOOR);
+                entries.accept(Items.SPRUCE_TRAPDOOR);
+                entries.accept(Items.SPRUCE_PRESSURE_PLATE);
+                entries.accept(Items.SPRUCE_BUTTON);
+                entries.accept(Blocks_Init.SPRUCE_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_SPRUCE_PLANKS.asItem());
+
+                entries.accept(Items.BIRCH_LOG);
+                entries.accept(Items.BIRCH_WOOD);
+                entries.accept(Items.STRIPPED_BIRCH_LOG);
+                entries.accept(Items.STRIPPED_BIRCH_WOOD);
+                entries.accept(Items.BIRCH_PLANKS);
+                entries.accept(Items.BIRCH_STAIRS);
+                entries.accept(Items.BIRCH_SLAB);
+                entries.accept(Items.BIRCH_FENCE);
+                entries.accept(Items.BIRCH_FENCE_GATE);
+                entries.accept(Items.BIRCH_DOOR);
+                entries.accept(Items.BIRCH_TRAPDOOR);
+                entries.accept(Items.BIRCH_PRESSURE_PLATE);
+                entries.accept(Items.BIRCH_BUTTON);
+                entries.accept(Blocks_Init.BIRCH_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_BIRCH_PLANKS.asItem());
+
+                entries.accept(Items.JUNGLE_LOG);
+                entries.accept(Items.JUNGLE_WOOD);
+                entries.accept(Items.STRIPPED_JUNGLE_LOG);
+                entries.accept(Items.STRIPPED_JUNGLE_WOOD);
+                entries.accept(Items.JUNGLE_PLANKS);
+                entries.accept(Items.JUNGLE_STAIRS);
+                entries.accept(Items.JUNGLE_SLAB);
+                entries.accept(Items.JUNGLE_FENCE);
+                entries.accept(Items.JUNGLE_FENCE_GATE);
+                entries.accept(Items.JUNGLE_DOOR);
+                entries.accept(Items.JUNGLE_TRAPDOOR);
+                entries.accept(Items.JUNGLE_PRESSURE_PLATE);
+                entries.accept(Items.JUNGLE_BUTTON);
+                entries.accept(Blocks_Init.JUNGLE_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_JUNGLE_PLANKS.asItem());
+
+                entries.accept(Items.ACACIA_LOG);
+                entries.accept(Items.ACACIA_WOOD);
+                entries.accept(Items.STRIPPED_ACACIA_LOG);
+                entries.accept(Items.STRIPPED_ACACIA_WOOD);
+                entries.accept(Items.ACACIA_PLANKS);
+                entries.accept(Items.ACACIA_STAIRS);
+                entries.accept(Items.ACACIA_SLAB);
+                entries.accept(Items.ACACIA_FENCE);
+                entries.accept(Items.ACACIA_FENCE_GATE);
+                entries.accept(Items.ACACIA_DOOR);
+                entries.accept(Items.ACACIA_TRAPDOOR);
+                entries.accept(Items.ACACIA_PRESSURE_PLATE);
+                entries.accept(Items.ACACIA_BUTTON);
+                entries.accept(Blocks_Init.ACACIA_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_ACACIA_PLANKS.asItem());
+
+                entries.accept(Items.DARK_OAK_LOG);
+                entries.accept(Items.DARK_OAK_WOOD);
+                entries.accept(Items.STRIPPED_DARK_OAK_LOG);
+                entries.accept(Items.STRIPPED_DARK_OAK_WOOD);
+                entries.accept(Items.DARK_OAK_PLANKS);
+                entries.accept(Items.DARK_OAK_STAIRS);
+                entries.accept(Items.DARK_OAK_SLAB);
+                entries.accept(Items.DARK_OAK_FENCE);
+                entries.accept(Items.DARK_OAK_FENCE_GATE);
+                entries.accept(Items.DARK_OAK_DOOR);
+                entries.accept(Items.DARK_OAK_TRAPDOOR);
+                entries.accept(Items.DARK_OAK_PRESSURE_PLATE);
+                entries.accept(Items.DARK_OAK_BUTTON);
+                entries.accept(Blocks_Init.DARK_OAK_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_DARK_OAK_PLANKS.asItem());
+
+
+                entries.accept(Items.MANGROVE_LOG);
+                entries.accept(Items.MANGROVE_WOOD);
+                entries.accept(Items.STRIPPED_MANGROVE_LOG);
+                entries.accept(Items.STRIPPED_MANGROVE_WOOD);
+                entries.accept(Items.MANGROVE_PLANKS);
+                entries.accept(Items.MANGROVE_STAIRS);
+                entries.accept(Items.MANGROVE_SLAB);
+                entries.accept(Items.MANGROVE_FENCE);
+                entries.accept(Items.MANGROVE_FENCE_GATE);
+                entries.accept(Items.MANGROVE_DOOR);
+                entries.accept(Items.MANGROVE_TRAPDOOR);
+                entries.accept(Items.MANGROVE_PRESSURE_PLATE);
+                entries.accept(Items.MANGROVE_BUTTON);
+                entries.accept(Blocks_Init.MANGROVE_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_MANGROVE_PLANKS.asItem());
+
+                entries.accept(Items.CHERRY_LOG);
+                entries.accept(Items.CHERRY_WOOD);
+                entries.accept(Items.STRIPPED_CHERRY_LOG);
+                entries.accept(Items.STRIPPED_CHERRY_WOOD);
+                entries.accept(Items.CHERRY_PLANKS);
+                entries.accept(Items.CHERRY_STAIRS);
+                entries.accept(Items.CHERRY_SLAB);
+                entries.accept(Items.CHERRY_FENCE);
+                entries.accept(Items.CHERRY_FENCE_GATE);
+                entries.accept(Items.CHERRY_DOOR);
+                entries.accept(Items.CHERRY_TRAPDOOR);
+                entries.accept(Items.CHERRY_PRESSURE_PLATE);
+                entries.accept(Items.CHERRY_BUTTON);
+                entries.accept(Blocks_Init.CHERRY_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_CHERRY_PLANKS.asItem());
+
+                entries.accept(Items.PALE_OAK_LOG);
+                entries.accept(Items.PALE_OAK_WOOD);
+                entries.accept(Items.STRIPPED_PALE_OAK_LOG);
+                entries.accept(Items.STRIPPED_PALE_OAK_WOOD);
+                entries.accept(Items.PALE_OAK_PLANKS);
+                entries.accept(Items.PALE_OAK_STAIRS);
+                entries.accept(Items.PALE_OAK_SLAB);
+                entries.accept(Items.PALE_OAK_FENCE);
+                entries.accept(Items.PALE_OAK_FENCE_GATE);
+                entries.accept(Items.PALE_OAK_DOOR);
+                entries.accept(Items.PALE_OAK_TRAPDOOR);
+                entries.accept(Items.PALE_OAK_PRESSURE_PLATE);
+                entries.accept(Items.PALE_OAK_BUTTON);
+                entries.accept(Blocks_Init.PALE_OAK_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_PALE_OAK_PLANKS.asItem());
+
+                entries.accept(Items.BAMBOO_BLOCK);
+                entries.accept(Items.STRIPPED_BAMBOO_BLOCK);
+                entries.accept(Items.BAMBOO_PLANKS);
+                entries.accept(Items.BAMBOO_MOSAIC);
+                entries.accept(Items.BAMBOO_STAIRS);
+                entries.accept(Items.BAMBOO_MOSAIC_STAIRS);
+                entries.accept(Items.BAMBOO_SLAB);
+                entries.accept(Items.BAMBOO_MOSAIC_SLAB);
+                entries.accept(Items.BAMBOO_FENCE);
+                entries.accept(Items.BAMBOO_FENCE_GATE);
+                entries.accept(Items.BAMBOO_DOOR);
+                entries.accept(Items.BAMBOO_TRAPDOOR);
+                entries.accept(Items.BAMBOO_PRESSURE_PLATE);
+                entries.accept(Items.BAMBOO_BUTTON);
+                entries.accept(Blocks_Init.BAMBOO_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_BAMBOO_PLANKS.asItem());
+
+                entries.accept(Items.CRIMSON_STEM);
+                entries.accept(Items.CRIMSON_HYPHAE);
+                entries.accept(Items.STRIPPED_CRIMSON_STEM);
+                entries.accept(Items.STRIPPED_CRIMSON_HYPHAE);
+                entries.accept(Items.CRIMSON_PLANKS);
+                entries.accept(Items.CRIMSON_STAIRS);
+                entries.accept(Items.CRIMSON_SLAB);
+                entries.accept(Items.CRIMSON_FENCE);
+                entries.accept(Items.CRIMSON_FENCE_GATE);
+                entries.accept(Items.CRIMSON_DOOR);
+                entries.accept(Items.CRIMSON_TRAPDOOR);
+                entries.accept(Items.CRIMSON_PRESSURE_PLATE);
+                entries.accept(Items.CRIMSON_BUTTON);
+                entries.accept(Blocks_Init.CRIMSON_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_CRIMSON_PLANKS.asItem());
+
+                entries.accept(Items.WARPED_STEM);
+                entries.accept(Items.WARPED_HYPHAE);
+                entries.accept(Items.STRIPPED_WARPED_STEM);
+                entries.accept(Items.STRIPPED_WARPED_HYPHAE);
+                entries.accept(Items.WARPED_PLANKS);
+                entries.accept(Items.WARPED_STAIRS);
+                entries.accept(Items.WARPED_SLAB);
+                entries.accept(Items.WARPED_FENCE);
+                entries.accept(Items.WARPED_FENCE_GATE);
+                entries.accept(Items.WARPED_DOOR);
+                entries.accept(Items.WARPED_TRAPDOOR);
+                entries.accept(Items.WARPED_PRESSURE_PLATE);
+                entries.accept(Items.WARPED_BUTTON);
+                entries.accept(Blocks_Init.WARPED_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_WARPED_PLANKS.asItem());
+            }
+        );
+    }
+}

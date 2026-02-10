@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/brewing/magma_cream",
+  "criteria": {
+    "crafted_glistering_melon_slice": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:glistering_melon_slice"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:glistering_melon_slice"
+    },
+    "title": {
+      "translate": "item.minecraft.glistering_melon_slice"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_glistering_melon_slice"
+    ]
+  ]
+}

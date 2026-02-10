@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/transportation/furnace_minecart",
+  "criteria": {
+    "crafted_tnt_minecart": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tnt_minecart"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:tnt_minecart"
+    },
+    "title": {
+      "translate": "item.minecraft.tnt_minecart"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_tnt_minecart"
+    ]
+  ]
+}

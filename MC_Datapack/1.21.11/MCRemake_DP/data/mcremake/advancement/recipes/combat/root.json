@@ -1,0 +1,35 @@
+{ 
+  "parent": "mcremake:recipes/root",
+  "criteria": {
+    "combat": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": "mcremake.advancement.recipes.combat.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "mcremake.advancement.recipes.combat"
+    }
+  },
+  "requirements": [
+    [
+      "combat"
+    ]
+  ]
+}

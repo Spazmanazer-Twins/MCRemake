@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/crafting_table",
+  "criteria": {
+    "crafted_wooden_shovel": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wooden_shovel"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wooden_shovel"
+    },
+    "title": {
+      "translate": "item.minecraft.wooden_shovel"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_wooden_shovel"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/light_blue_harness",
+  "criteria": {
+    "crafted_blue_harness": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blue_harness"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:blue_harness"
+    },
+    "title": {
+      "translate": "item.minecraft.blue_harness"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_blue_harness"
+    ]
+  ]
+}

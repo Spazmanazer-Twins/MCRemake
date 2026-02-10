@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/leather_boots",
+  "criteria": {
+    "crafted_copper_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_boots"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:copper_boots"
+    },
+    "title": {
+      "translate": "item.minecraft.copper_boots"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_copper_boots"
+    ]
+  ]
+}

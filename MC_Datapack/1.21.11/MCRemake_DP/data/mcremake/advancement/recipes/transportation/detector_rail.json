@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/transportation/powered_rail",
+  "criteria": {
+    "crafted_detector_rail": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:detector_rail"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:detector_rail"
+    },
+    "title": {
+      "translate": "block.minecraft.detector_rail"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_detector_rail"
+    ]
+  ]
+}

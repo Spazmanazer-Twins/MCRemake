@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/food/pumpkin_pie",
+  "criteria": {
+    "crafted_cake": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cake"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cake"
+    },
+    "title": {
+      "translate": "block.minecraft.cake"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_cake"
+    ]
+  ]
+}

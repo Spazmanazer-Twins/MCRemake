@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/crafting_table",
+  "criteria": {
+    "crafted_shield": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:shield"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "translate": "item.minecraft.shield"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_shield"
+    ]
+  ]
+}

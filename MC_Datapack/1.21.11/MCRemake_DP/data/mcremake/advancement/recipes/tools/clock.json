@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/recovery_compass",
+  "criteria": {
+    "crafted_clock": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:clock"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "translate": "item.minecraft.clock"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_clock"
+    ]
+  ]
+}

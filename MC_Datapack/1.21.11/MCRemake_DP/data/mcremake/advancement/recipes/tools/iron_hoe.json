@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/copper_hoe",
+  "criteria": {
+    "crafted_iron_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_hoe"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_hoe"
+    },
+    "title": {
+      "translate": "item.minecraft.iron_hoe"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_iron_hoe"
+    ]
+  ]
+}

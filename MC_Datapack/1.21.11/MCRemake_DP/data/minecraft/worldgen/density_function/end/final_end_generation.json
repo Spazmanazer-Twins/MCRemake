@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:max",
+  "argument1": {
+    "type": "minecraft:max",
+    "argument1": {
+      "type": "minecraft:max",
+      "argument1": {
+        "type": "minecraft:max",
+        "argument1": {
+          "type": "minecraft:max",
+          "argument1": {
+            "type": "minecraft:max",
+            "argument1": "minecraft:end/level_1",
+            "argument2": "minecraft:end/level_2"
+          },
+          "argument2": "minecraft:end/level_3"
+        },
+        "argument2": "minecraft:end/level_4"
+      },
+      "argument2": "minecraft:end/level_5"
+    },
+    "argument2": "minecraft:end/level_6"
+  },
+  "argument2": "minecraft:end/level_7"
+}

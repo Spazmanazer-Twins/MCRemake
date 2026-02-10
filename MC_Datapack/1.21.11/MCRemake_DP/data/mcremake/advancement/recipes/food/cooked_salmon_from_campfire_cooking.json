@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/food/cooked_cod_from_campfire_cooking",
+  "criteria": {
+    "crafted_cooked_salmon_from_campfire_cooking": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_salmon_from_campfire_cooking"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cooked_salmon"
+    },
+    "title": {
+      "translate": "item.minecraft.cooked_salmon"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_cooked_salmon_from_campfire_cooking"
+    ]
+  ]
+}

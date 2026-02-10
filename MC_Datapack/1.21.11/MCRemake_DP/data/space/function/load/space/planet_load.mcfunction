@@ -1,0 +1,1 @@
+function space:load/space/planet/earth/earth_load

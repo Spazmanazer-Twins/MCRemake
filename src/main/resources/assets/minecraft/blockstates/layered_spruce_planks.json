@@ -1,0 +1,420 @@
+{
+  "variants": {
+    "facing=up,layers=1": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_1"
+    },
+	"facing=up,layers=2": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_2"
+    },
+	"facing=up,layers=3": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_3"
+    },
+	"facing=up,layers=4": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_4"
+    },
+	"facing=up,layers=5": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_5"
+    },
+	"facing=up,layers=6": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_6"
+    },
+	"facing=up,layers=7": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_7"
+    },
+	"facing=up,layers=8": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_8"
+    },
+	"facing=up,layers=9": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_9"
+    },
+	"facing=up,layers=10": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_10"
+    },
+	"facing=up,layers=11": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_11"
+    },
+	"facing=up,layers=12": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_12"
+    },
+	"facing=up,layers=13": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_13"
+    },
+	"facing=up,layers=14": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_14"
+    },
+	"facing=up,layers=15": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_15"
+    },
+	"facing=up,layers=16": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_16"
+    },
+	"facing=down,layers=1": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_1",
+      "x": 180
+    },
+	"facing=down,layers=2": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_2",
+      "x": 180
+    },
+	"facing=down,layers=3": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_3",
+      "x": 180
+    },
+	"facing=down,layers=4": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_4",
+      "x": 180
+    },
+	"facing=down,layers=5": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_5",
+      "x": 180
+    },
+	"facing=down,layers=6": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_6",
+      "x": 180
+    },
+	"facing=down,layers=7": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_7",
+      "x": 180
+    },
+	"facing=down,layers=8": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_8",
+      "x": 180
+    },
+	"facing=down,layers=9": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_9",
+      "x": 180
+    },
+	"facing=down,layers=10": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_10",
+      "x": 180
+    },
+	"facing=down,layers=11": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_11",
+      "x": 180
+    },
+	"facing=down,layers=12": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_12",
+      "x": 180
+    },
+	"facing=down,layers=13": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_13",
+      "x": 180
+    },
+	"facing=down,layers=14": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_14",
+      "x": 180
+    },
+	"facing=down,layers=15": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_15",
+      "x": 180
+    },
+	"facing=down,layers=16": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_16",
+      "x": 180
+    },
+	"facing=north,layers=1": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_1",
+      "x": 90
+    },
+	"facing=north,layers=2": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_2",
+      "x": 90
+    },
+	"facing=north,layers=3": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_3",
+      "x": 90
+    },
+	"facing=north,layers=4": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_4",
+      "x": 90
+    },
+	"facing=north,layers=5": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_5",
+      "x": 90
+    },
+	"facing=north,layers=6": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_6",
+      "x": 90
+    },
+	"facing=north,layers=7": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_7",
+      "x": 90
+    },
+	"facing=north,layers=8": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_8",
+      "x": 90
+    },
+	"facing=north,layers=9": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_9",
+      "x": 90
+    },
+	"facing=north,layers=10": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_10",
+      "x": 90
+    },
+	"facing=north,layers=11": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_11",
+      "x": 90
+    },
+	"facing=north,layers=12": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_12",
+      "x": 90
+    },
+	"facing=north,layers=13": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_13",
+      "x": 90
+    },
+	"facing=north,layers=14": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_14",
+      "x": 90
+    },
+	"facing=north,layers=15": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_15",
+      "x": 90
+    },
+	"facing=north,layers=16": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_16",
+      "x": 90
+    },
+	"facing=south,layers=1": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_1",
+      "x": 90,
+      "y": 180
+    },
+	"facing=south,layers=2": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_2",
+      "x": 90,
+      "y": 180
+    },
+	"facing=south,layers=3": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_3",
+      "x": 90,
+      "y": 180
+    },
+	"facing=south,layers=4": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_4",
+      "x": 90,
+      "y": 180
+    },
+	"facing=south,layers=5": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_5",
+      "x": 90,
+      "y": 180
+    },
+	"facing=south,layers=6": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_6",
+      "x": 90,
+      "y": 180
+    },
+	"facing=south,layers=7": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_7",
+      "x": 90,
+      "y": 180
+    },
+	"facing=south,layers=8": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_8",
+      "x": 90,
+      "y": 180
+    },
+	"facing=south,layers=9": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_9",
+      "x": 90,
+      "y": 180
+    },
+	"facing=south,layers=10": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_10",
+      "x": 90,
+      "y": 180
+    },
+	"facing=south,layers=11": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_11",
+      "x": 90,
+      "y": 180
+    },
+	"facing=south,layers=12": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_12",
+      "x": 90,
+      "y": 180
+    },
+	"facing=south,layers=13": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_13",
+      "x": 90,
+      "y": 180
+    },
+	"facing=south,layers=14": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_14",
+      "x": 90,
+      "y": 180
+    },
+	"facing=south,layers=15": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_15",
+      "x": 90,
+      "y": 180
+    },
+	"facing=south,layers=16": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_16",
+      "x": 90,
+      "y": 180
+    },
+	"facing=west,layers=1": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_1",
+      "x": 90,
+      "y": 270
+    },
+	"facing=west,layers=2": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_2",
+      "x": 90,
+      "y": 270
+    },
+	"facing=west,layers=3": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_3",
+      "x": 90,
+      "y": 270
+    },
+	"facing=west,layers=4": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_4",
+      "x": 90,
+      "y": 270
+    },
+	"facing=west,layers=5": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_5",
+      "x": 90,
+      "y": 270
+    },
+	"facing=west,layers=6": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_6",
+      "x": 90,
+      "y": 270
+    },
+	"facing=west,layers=7": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_7",
+      "x": 90,
+      "y": 270
+    },
+	"facing=west,layers=8": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_8",
+      "x": 90,
+      "y": 270
+    },
+	"facing=west,layers=9": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_9",
+      "x": 90,
+      "y": 270
+    },
+	"facing=west,layers=10": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_10",
+      "x": 90,
+      "y": 270
+    },
+	"facing=west,layers=11": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_11",
+      "x": 90,
+      "y": 270
+    },
+	"facing=west,layers=12": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_12",
+      "x": 90,
+      "y": 270
+    },
+	"facing=west,layers=13": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_13",
+      "x": 90,
+      "y": 270
+    },
+	"facing=west,layers=14": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_14",
+      "x": 90,
+      "y": 270
+    },
+	"facing=west,layers=15": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_15",
+      "x": 90,
+      "y": 270
+    },
+	"facing=west,layers=16": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_16",
+      "x": 90,
+      "y": 270
+    },
+	"facing=east,layers=1": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_1",
+      "x": 90,
+      "y": 90
+    },
+	"facing=east,layers=2": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_2",
+      "x": 90,
+      "y": 90
+    },
+	"facing=east,layers=3": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_3",
+      "x": 90,
+      "y": 90
+    },
+	"facing=east,layers=4": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_4",
+      "x": 90,
+      "y": 90
+    },
+	"facing=east,layers=5": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_5",
+      "x": 90,
+      "y": 90
+    },
+	"facing=east,layers=6": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_6",
+      "x": 90,
+      "y": 90
+    },
+	"facing=east,layers=7": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_7",
+      "x": 90,
+      "y": 90
+    },
+	"facing=east,layers=8": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_8",
+      "x": 90,
+      "y": 90
+    },
+	"facing=east,layers=9": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_9",
+      "x": 90,
+      "y": 90
+    },
+	"facing=east,layers=10": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_10",
+      "x": 90,
+      "y": 90
+    },
+	"facing=east,layers=11": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_11",
+      "x": 90,
+      "y": 90
+    },
+	"facing=east,layers=12": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_12",
+      "x": 90,
+      "y": 90
+    },
+	"facing=east,layers=13": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_13",
+      "x": 90,
+      "y": 90
+    },
+	"facing=east,layers=14": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_14",
+      "x": 90,
+      "y": 90
+    },
+	"facing=east,layers=15": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_15",
+      "x": 90,
+      "y": 90
+    },
+	"facing=east,layers=16": {
+      "model": "minecraft:block/overworld/tree/spruce/layered_spruce_planks/layered_spruce_planks_16",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

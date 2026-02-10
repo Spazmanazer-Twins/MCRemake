@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/food/suspicious_stew_from_allium",
+  "criteria": {
+    "crafted_suspicious_stew_from_azure_bluet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:suspicious_stew_from_azure_bluet"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": "block.minecraft.azure_bluet"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:azure_bluet"
+    },
+    "title": {
+      "translate": "item.minecraft.suspicious_stew"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_suspicious_stew_from_azure_bluet"
+    ]
+  ]
+}

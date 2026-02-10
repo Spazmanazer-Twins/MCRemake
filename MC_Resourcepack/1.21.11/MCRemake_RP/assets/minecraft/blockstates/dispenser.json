@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "minecraft:block/overworld/functional_blocks/redstone/dispenser/dispenser_vertical",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "minecraft:block/overworld/functional_blocks/redstone/dispenser/dispenser",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "minecraft:block/overworld/functional_blocks/redstone/dispenser/dispenser"
+    },
+    "facing=south": {
+      "model": "minecraft:block/overworld/functional_blocks/redstone/dispenser/dispenser",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "minecraft:block/overworld/functional_blocks/redstone/dispenser/dispenser_vertical"
+    },
+    "facing=west": {
+      "model": "minecraft:block/overworld/functional_blocks/redstone/dispenser/dispenser",
+      "y": 270
+    }
+  }
+}

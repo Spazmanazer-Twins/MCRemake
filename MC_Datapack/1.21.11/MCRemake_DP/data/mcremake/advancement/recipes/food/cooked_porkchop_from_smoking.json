@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/food/cooked_beef_from_smoking",
+  "criteria": {
+    "crafted_cooked_porkchop_from_smoking": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cooked_porkchop_from_smoking"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cooked_porkchop"
+    },
+    "title": {
+      "translate": "item.minecraft.cooked_porkchop"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_cooked_porkchop_from_smoking"
+    ]
+  ]
+}

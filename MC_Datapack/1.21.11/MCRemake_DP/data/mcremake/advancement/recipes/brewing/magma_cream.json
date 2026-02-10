@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/brewing/fermented_spider_eye",
+  "criteria": {
+    "crafted_magma_cream": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:magma_cream"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:magma_cream"
+    },
+    "title": {
+      "translate": "item.minecraft.magma_cream"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_magma_cream"
+    ]
+  ]
+}

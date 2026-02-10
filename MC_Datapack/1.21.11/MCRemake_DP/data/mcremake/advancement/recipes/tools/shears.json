@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/flint_and_steel",
+  "criteria": {
+    "crafted_shears": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:shears"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:shears"
+    },
+    "title": {
+      "translate": "item.minecraft.shears"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_shears"
+    ]
+  ]
+}

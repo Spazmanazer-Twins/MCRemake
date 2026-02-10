@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/overworld/luminous_blocks/bulb/template_bulb_lamp",
+  "textures": {
+    "bulb_lamp": "minecraft:block/weathered_copper_bulb_lit_powered"
+  }
+}

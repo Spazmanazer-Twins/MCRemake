@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/netherite_helmet_smithing",
+  "criteria": {
+    "crafted_netherite_chestplate_smithing": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_chestplate_smithing"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "translate": "item.minecraft.netherite_chestplate"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_netherite_chestplate_smithing"
+    ]
+  ]
+}

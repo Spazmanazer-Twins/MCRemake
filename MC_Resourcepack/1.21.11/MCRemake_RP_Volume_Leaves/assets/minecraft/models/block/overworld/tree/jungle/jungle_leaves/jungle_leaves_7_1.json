@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/templates_and_shapes/leaves/default/leaves_7_1",
+  "textures": {
+    "leaves_1": "minecraft:block/leaves/jungle_leaves"
+  }
+}

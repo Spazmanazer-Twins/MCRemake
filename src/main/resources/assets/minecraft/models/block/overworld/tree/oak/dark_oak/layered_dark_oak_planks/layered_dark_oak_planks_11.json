@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/templates_and_shapes/layers/layer_11",
+  "textures": {
+    "base": "minecraft:block/dark_oak_planks"
+  }
+}

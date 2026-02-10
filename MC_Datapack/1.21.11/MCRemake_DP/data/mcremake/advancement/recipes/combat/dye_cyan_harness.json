@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/dye_green_harness",
+  "criteria": {
+    "crafted_cyan_harness": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dye_cyan_harness"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cyan_harness"
+    },
+    "title": {
+      "translate": "item.minecraft.cyan_harness"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_cyan_harness"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/stone_axe",
+  "criteria": {
+    "crafted_copper_axe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_axe"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:copper_axe"
+    },
+    "title": {
+      "translate": "item.minecraft.copper_axe"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_copper_axe"
+    ]
+  ]
+}

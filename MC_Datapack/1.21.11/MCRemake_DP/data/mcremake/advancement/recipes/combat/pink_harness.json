@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/magenta_harness",
+  "criteria": {
+    "crafted_pink_harness": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:pink_harness"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:pink_harness"
+    },
+    "title": {
+      "translate": "item.minecraft.pink_harness"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_pink_harness"
+    ]
+  ]
+}

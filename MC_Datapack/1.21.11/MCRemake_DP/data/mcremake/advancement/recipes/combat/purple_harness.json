@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/blue_harness",
+  "criteria": {
+    "crafted_purple_harness": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:purple_harness"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:purple_harness"
+    },
+    "title": {
+      "translate": "item.minecraft.purple_harness"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_purple_harness"
+    ]
+  ]
+}

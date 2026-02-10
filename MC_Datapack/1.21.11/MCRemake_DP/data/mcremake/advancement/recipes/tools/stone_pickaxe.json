@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/wooden_pickaxe",
+  "criteria": {
+    "crafted_stone_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_pickaxe"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:stone_pickaxe"
+    },
+    "title": {
+      "translate": "item.minecraft.stone_pickaxe"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_stone_pickaxe"
+    ]
+  ]
+}

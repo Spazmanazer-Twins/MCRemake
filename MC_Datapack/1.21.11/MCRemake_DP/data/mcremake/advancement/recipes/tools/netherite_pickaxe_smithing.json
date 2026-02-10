@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/netherite_shovel_smithing",
+  "criteria": {
+    "crafted_netherite_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_pickaxe_smithing"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "item.minecraft.netherite_pickaxe"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_netherite_pickaxe"
+    ]
+  ]
+}

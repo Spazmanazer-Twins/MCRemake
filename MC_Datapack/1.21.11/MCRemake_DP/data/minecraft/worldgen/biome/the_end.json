@@ -1,0 +1,63 @@
+{
+  "carvers": [],
+  "downfall": 0.5,
+  "effects": {
+    "water_color": "#3f76e4"
+  },
+  "features": [
+    [
+      "mcremake:end_island_decorated"
+    ],
+    [
+      "mcremake:chorus_plant"
+    ],
+    [
+      "mcremake:end_platform"
+    ],
+    [
+	  "mcremake:remove_lava_55_layer_1",
+	  "mcremake:remove_lava_55_layer_2",
+	  "mcremake:remove_lava_55_layer_3",
+	  "mcremake:remove_lava_55_layer_4",
+	  "mcremake:remove_lava_55_layer_5",
+	  "mcremake:remove_lava_55_layer_6",
+	  "mcremake:remove_lava_55_layer_7",
+	  "mcremake:remove_lava_55_layer_8",
+	  "mcremake:remove_lava_55_layer_9",
+	  "mcremake:remove_lava_55_layer_10",
+	  "mcremake:remove_lava_55_layer_11",
+	  "mcremake:remove_lava_55_layer_12",
+	  "mcremake:remove_lava_55_layer_13",
+	  "mcremake:remove_lava_55_layer_14",
+	  "mcremake:remove_lava_55_layer_15",
+	  "mcremake:remove_lava_55_layer_16"
+	],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.5
+}

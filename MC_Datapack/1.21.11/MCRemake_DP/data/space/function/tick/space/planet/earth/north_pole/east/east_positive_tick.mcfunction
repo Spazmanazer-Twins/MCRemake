@@ -1,0 +1,4 @@
+execute store result storage space:planet.earth.teleport.north_pole x int 1 run data get entity @s Pos.[2] -1
+execute store result storage space:planet.earth.teleport.north_pole y int 1 run data get entity @s Pos.[1] 1
+execute store result storage space:planet.earth.teleport.north_pole z int 1 run data get entity @s Pos.[0] -1
+function space:tick/space/planet/earth/north_pole/east/east_teleport with storage space:planet.earth.teleport.north_pole

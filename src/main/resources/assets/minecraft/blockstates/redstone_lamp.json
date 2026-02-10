@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "minecraft:block/overworld/luminous_blocks/redstone_lamp/redstone_lamp"
+    },
+    "lit=true": {
+      "model": "minecraft:block/overworld/luminous_blocks/redstone_lamp/redstone_lamp_on"
+    }
+  }
+}

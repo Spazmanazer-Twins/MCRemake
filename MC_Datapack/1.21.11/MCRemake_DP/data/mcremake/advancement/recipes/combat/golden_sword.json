@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/iron_sword",
+  "criteria": {
+    "crafted_golden_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_sword"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_sword"
+    },
+    "title": {
+      "translate": "item.minecraft.golden_sword"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_golden_sword"
+    ]
+  ]
+}

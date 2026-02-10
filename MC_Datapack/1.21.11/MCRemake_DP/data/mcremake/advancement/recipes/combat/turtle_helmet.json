@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/crafting_table",
+  "criteria": {
+    "crafted_turtle_helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:turtle_helmet"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:turtle_helmet"
+    },
+    "title": {
+      "translate": "item.minecraft.turtle_helmet"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_turtle_helmet"
+    ]
+  ]
+}

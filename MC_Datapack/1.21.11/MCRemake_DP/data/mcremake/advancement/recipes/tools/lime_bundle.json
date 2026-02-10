@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/yellow_bundle",
+  "criteria": {
+    "crafted_lime_bundle": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lime_bundle"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lime_bundle"
+    },
+    "title": {
+      "translate": "item.minecraft.lime_bundle"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_lime_bundle"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/food/suspicious_stew_from_pink_tulip",
+  "criteria": {
+    "crafted_suspicious_stew_from_red_tulip": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:suspicious_stew_from_red_tulip"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": "block.minecraft.red_tulip"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:red_tulip"
+    },
+    "title": {
+      "translate": "item.minecraft.suspicious_stew"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_suspicious_stew_from_red_tulip"
+    ]
+  ]
+}

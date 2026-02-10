@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/golden_boots",
+  "criteria": {
+    "crafted_diamond_boots": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_boots"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_boots"
+    },
+    "title": {
+      "translate": "item.minecraft.diamond_boots"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_diamond_boots"
+    ]
+  ]
+}

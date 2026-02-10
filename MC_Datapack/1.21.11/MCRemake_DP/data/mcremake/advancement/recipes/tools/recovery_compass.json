@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/compass",
+  "criteria": {
+    "crafted_recovery_compass": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:recovery_compass"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:recovery_compass"
+    },
+    "title": {
+      "translate": "item.minecraft.recovery_compass"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_recovery_compass"
+    ]
+  ]
+}

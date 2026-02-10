@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/transportation/jungle_boat",
+  "criteria": {
+    "crafted_acacia_boat": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:acacia_boat"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:acacia_boat"
+    },
+    "title": {
+      "translate": "item.minecraft.acacia_boat"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_acacia_boat"
+    ]
+  ]
+}

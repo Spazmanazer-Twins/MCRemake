@@ -1,0 +1,20 @@
+{
+# Достижения
+"mcremake.advancement.mcremake":"MCRemake",
+"mcremake.advancement.mcremake.description":"Врата ада манят любопытных.",
+
+"mcremake.advancement.recipes":"Во все крафтовые",
+"mcremake.advancement.recipes.description":"Сможешь скрафтить всё что есть в игре?",
+"mcremake.advancement.recipes.brewing":"Зельеварение               ",
+"mcremake.advancement.recipes.brewing.description":"Опаснее обычных зелий только взрывные и оседающие.",
+"mcremake.advancement.recipes.food":"§eК§6у§cл§dи§5н§1а§3р§2и§aя",
+"mcremake.advancement.recipes.food.description":"Режим питания нарушать нельзя.",
+"mcremake.advancement.recipes.transportation":"Транспортировка",
+"mcremake.advancement.recipes.transportation.description":"Легенда, претендент и новичок.",
+"mcremake.advancement.recipes.tools":"Инструментарий",
+"mcremake.advancement.recipes.tools.description":"",
+
+"mcremake.advancement.recipes.combat":"Вооружение",
+"mcremake.advancement.recipes.combat.description":""
+
+}

@@ -1,0 +1,32 @@
+{
+  "variants": {
+    "distance=1": [
+	{"model": "minecraft:block/overworld/tree/jungle/jungle_leaves/jungle_leaves_1_1"},
+	{"model": "minecraft:block/overworld/tree/jungle/jungle_leaves/jungle_leaves_1_2"}
+    ],
+	"distance=2": [
+	{"model": "minecraft:block/overworld/tree/jungle/jungle_leaves/jungle_leaves_2_1"},
+	{"model": "minecraft:block/overworld/tree/jungle/jungle_leaves/jungle_leaves_2_2"}
+    ],
+	"distance=3": [
+	{"model": "minecraft:block/overworld/tree/jungle/jungle_leaves/jungle_leaves_3_1"},
+	{"model": "minecraft:block/overworld/tree/jungle/jungle_leaves/jungle_leaves_3_2"}
+    ],
+	"distance=4": [
+	{"model": "minecraft:block/overworld/tree/jungle/jungle_leaves/jungle_leaves_4_1"},
+	{"model": "minecraft:block/overworld/tree/jungle/jungle_leaves/jungle_leaves_4_2"}
+    ],
+	"distance=5": [
+	{"model": "minecraft:block/overworld/tree/jungle/jungle_leaves/jungle_leaves_5_1"},
+	{"model": "minecraft:block/overworld/tree/jungle/jungle_leaves/jungle_leaves_5_2"}
+    ],
+	"distance=6": [
+	{"model": "minecraft:block/overworld/tree/jungle/jungle_leaves/jungle_leaves_6_1"},
+	{"model": "minecraft:block/overworld/tree/jungle/jungle_leaves/jungle_leaves_6_2"}
+    ],
+	"distance=7": [
+	{"model": "minecraft:block/overworld/tree/jungle/jungle_leaves/jungle_leaves_7_1"},
+	{"model": "minecraft:block/overworld/tree/jungle/jungle_leaves/jungle_leaves_7_2"}
+    ]
+  }
+}

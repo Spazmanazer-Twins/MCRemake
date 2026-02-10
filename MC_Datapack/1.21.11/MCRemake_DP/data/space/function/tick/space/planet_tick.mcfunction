@@ -1,0 +1,1 @@
+function space:tick/space/planet/earth/earth_tick

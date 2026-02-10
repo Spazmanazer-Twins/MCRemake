@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/lime_bundle",
+  "criteria": {
+    "crafted_green_bundle": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:green_bundle"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:green_bundle"
+    },
+    "title": {
+      "translate": "item.minecraft.green_bundle"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_green_bundle"
+    ]
+  ]
+}

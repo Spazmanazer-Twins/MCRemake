@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/shears",
+  "criteria": {
+    "crafted_brush": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brush"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:brush"
+    },
+    "title": {
+      "translate": "item.minecraft.brush"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_brush"
+    ]
+  ]
+}

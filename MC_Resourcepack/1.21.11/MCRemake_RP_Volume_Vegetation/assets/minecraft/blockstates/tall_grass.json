@@ -1,0 +1,20 @@
+{
+  "variants": {
+	"half=lower": [
+	  {
+        "model": "minecraft:block/overworld/plants/grass/tall_grass/tall_grass_bottom_1"
+	  },
+	  {
+        "model": "minecraft:block/overworld/plants/grass/tall_grass/tall_grass_bottom_2"
+	  }
+	  ],
+    "half=upper": [
+	  {
+      "model": "minecraft:block/overworld/plants/grass/tall_grass/tall_grass_top_1"
+      },
+	  {
+      "model": "minecraft:block/overworld/plants/grass/tall_grass/tall_grass_top_2"
+      }
+	]
+  }
+}

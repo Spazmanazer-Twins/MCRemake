@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/copper_helmet",
+  "criteria": {
+    "crafted_iron_helmet": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_helmet"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_helmet"
+    },
+    "title": {
+      "translate": "item.minecraft.iron_helmet"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_iron_helmet"
+    ]
+  ]
+}

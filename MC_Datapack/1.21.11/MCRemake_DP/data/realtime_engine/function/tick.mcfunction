@@ -1,0 +1,3 @@
+function realtime:tick/realtimeengine/realtimeengine
+function realtime:tick/realtimeengine/setup_time
+function realtime:tick/realtimeengine/setup_time_trigger_enable

@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/brewing/cauldron",
+  "criteria": {
+    "crafted_brewing_stand": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:brewing_stand"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:brewing_stand"
+    },
+    "title": {
+      "translate": "item.minecraft.brewing_stand"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_brewing_stand"
+    ]
+  ]
+}

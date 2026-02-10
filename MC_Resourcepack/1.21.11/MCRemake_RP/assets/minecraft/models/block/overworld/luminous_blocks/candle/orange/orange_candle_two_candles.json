@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/overworld/luminous_blocks/candle/template_two_candles",
+  "textures": {
+    "all": "minecraft:block/orange_candle",
+    "particle": "minecraft:block/orange_candle"
+  }
+}

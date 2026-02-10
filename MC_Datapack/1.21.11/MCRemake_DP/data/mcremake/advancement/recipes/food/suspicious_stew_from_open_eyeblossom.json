@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/food/suspicious_stew_from_closed_eyeblossom",
+  "criteria": {
+    "crafted_suspicious_stew_from_open_eyeblossom": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:suspicious_stew_from_open_eyeblossom"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": "block.minecraft.open_eyeblossom"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:open_eyeblossom"
+    },
+    "title": {
+      "translate": "item.minecraft.suspicious_stew"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_suspicious_stew_from_open_eyeblossom"
+    ]
+  ]
+}

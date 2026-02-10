@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/saddle",
+  "criteria": {
+    "crafted_white_harness": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:white_harness"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:white_harness"
+    },
+    "title": {
+      "translate": "item.minecraft.white_harness"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_white_harness"
+    ]
+  ]
+}

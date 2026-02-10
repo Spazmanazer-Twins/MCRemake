@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/leather_chestplate",
+  "criteria": {
+    "crafted_copper_chestplate": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_chestplate"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:copper_chestplate"
+    },
+    "title": {
+      "translate": "item.minecraft.copper_chestplate"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_copper_chestplate"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/white_harness",
+  "criteria": {
+    "crafted_light_gray_harness": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:light_gray_harness"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:light_gray_harness"
+    },
+    "title": {
+      "translate": "item.minecraft.light_gray_harness"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_light_gray_harness"
+    ]
+  ]
+}

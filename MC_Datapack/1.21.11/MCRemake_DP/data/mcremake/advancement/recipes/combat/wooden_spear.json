@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/combat/crafting_table",
+  "criteria": {
+    "crafted_wooden_spear": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wooden_spear"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wooden_spear"
+    },
+    "title": {
+      "translate": "item.minecraft.wooden_spear"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_wooden_spear"
+    ]
+  ]
+}

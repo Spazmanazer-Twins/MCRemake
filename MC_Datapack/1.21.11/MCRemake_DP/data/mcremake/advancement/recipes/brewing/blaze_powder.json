@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/brewing/brewing_stand",
+  "criteria": {
+    "crafted_blaze_powder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:blaze_powder"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:blaze_powder"
+    },
+    "title": {
+      "translate": "item.minecraft.blaze_powder"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_blaze_powder"
+    ]
+  ]
+}

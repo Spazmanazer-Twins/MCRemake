@@ -1,0 +1,35 @@
+{ 
+  "parent": "mcremake:root",
+  "criteria": {
+    "recipes": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": "mcremake.advancement.recipes.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:knowledge_book"
+    },
+    "title": {
+      "translate": "mcremake.advancement.recipes"
+    }
+  },
+  "requirements": [
+    [
+      "recipes"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "mcremake",
+	"version": "0.0.1",
+	"name": "MCRemake",
+	"description": "\nIntellij Idea - Ты только что был скомпилирован блять , какая тебе нахуй лицензия!?\nMCRemake - Победоносная)\n",
+	"authors": [
+		"Spazmanazer Twins"
+	],
+	"contact": {
+		"homepage": "https://github.com/Spazmanazer-Twins",
+		"sources": ""
+	},
+	"license": "",
+	"icon": "assets/mcremake/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "mcremake.Server.Init.MCRemake.ID_Init",
+          "mcremake.Server.Init.Minecraft.ID_Init"
+		],
+      "client": [
+        "mcremake.Client.Init.MCRemakeClientInit"
+      ]
+	},
+  "mixins": [
+    "mcremake.server.mixins.json"
+  ],
+
+  "client": [
+    "mcremake.client.mixins.json"
+  ],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/templates_and_shapes/layers/layer_10",
+  "textures": {
+    "base": "minecraft:block/acacia_planks"
+  }
+}

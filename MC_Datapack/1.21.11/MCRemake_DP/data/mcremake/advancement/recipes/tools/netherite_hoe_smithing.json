@@ -1,0 +1,31 @@
+{
+  "parent": "mcremake:recipes/tools/netherite_axe_smithing",
+  "criteria": {
+    "crafted_netherite_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_hoe_smithing"
+      }
+    }
+  },
+  "sends_telemetry_event": false,
+  "display": {
+	"announce_to_chat": false,
+	"show_toast": false,
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_hoe"
+    },
+    "title": {
+      "translate": "item.minecraft.netherite_hoe"
+    }
+  },
+  "requirements": [
+    [
+      "crafted_netherite_hoe"
+    ]
+  ]
+}
