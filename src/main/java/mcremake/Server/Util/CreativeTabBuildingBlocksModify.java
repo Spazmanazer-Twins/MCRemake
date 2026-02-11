@@ -30,6 +30,8 @@ public class CreativeTabBuildingBlocksModify {
                 entries.accept(Items.OAK_BUTTON);
                 entries.accept(Blocks_Init.OAK_WALL.asItem());
                 entries.accept(Blocks_Init.LAYERED_OAK_PLANKS.asItem());
+                entries.accept(Blocks_Init.OAK_WOOD_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_OAK_WOOD.asItem());
 
                 entries.accept(Items.SPRUCE_LOG);
                 entries.accept(Items.SPRUCE_WOOD);
@@ -46,6 +48,8 @@ public class CreativeTabBuildingBlocksModify {
                 entries.accept(Items.SPRUCE_BUTTON);
                 entries.accept(Blocks_Init.SPRUCE_WALL.asItem());
                 entries.accept(Blocks_Init.LAYERED_SPRUCE_PLANKS.asItem());
+                entries.accept(Blocks_Init.SPRUCE_WOOD_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_SPRUCE_WOOD.asItem());
 
                 entries.accept(Items.BIRCH_LOG);
                 entries.accept(Items.BIRCH_WOOD);
@@ -62,6 +66,8 @@ public class CreativeTabBuildingBlocksModify {
                 entries.accept(Items.BIRCH_BUTTON);
                 entries.accept(Blocks_Init.BIRCH_WALL.asItem());
                 entries.accept(Blocks_Init.LAYERED_BIRCH_PLANKS.asItem());
+                entries.accept(Blocks_Init.BIRCH_WOOD_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_BIRCH_WOOD.asItem());
 
                 entries.accept(Items.JUNGLE_LOG);
                 entries.accept(Items.JUNGLE_WOOD);
@@ -78,6 +84,8 @@ public class CreativeTabBuildingBlocksModify {
                 entries.accept(Items.JUNGLE_BUTTON);
                 entries.accept(Blocks_Init.JUNGLE_WALL.asItem());
                 entries.accept(Blocks_Init.LAYERED_JUNGLE_PLANKS.asItem());
+                entries.accept(Blocks_Init.JUNGLE_WOOD_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_JUNGLE_WOOD.asItem());
 
                 entries.accept(Items.ACACIA_LOG);
                 entries.accept(Items.ACACIA_WOOD);
@@ -94,6 +102,8 @@ public class CreativeTabBuildingBlocksModify {
                 entries.accept(Items.ACACIA_BUTTON);
                 entries.accept(Blocks_Init.ACACIA_WALL.asItem());
                 entries.accept(Blocks_Init.LAYERED_ACACIA_PLANKS.asItem());
+                entries.accept(Blocks_Init.ACACIA_WOOD_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_ACACIA_WOOD.asItem());
 
                 entries.accept(Items.DARK_OAK_LOG);
                 entries.accept(Items.DARK_OAK_WOOD);
@@ -110,7 +120,8 @@ public class CreativeTabBuildingBlocksModify {
                 entries.accept(Items.DARK_OAK_BUTTON);
                 entries.accept(Blocks_Init.DARK_OAK_WALL.asItem());
                 entries.accept(Blocks_Init.LAYERED_DARK_OAK_PLANKS.asItem());
-
+                entries.accept(Blocks_Init.DARK_OAK_WOOD_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_DARK_OAK_WOOD.asItem());
 
                 entries.accept(Items.MANGROVE_LOG);
                 entries.accept(Items.MANGROVE_WOOD);
@@ -127,6 +138,8 @@ public class CreativeTabBuildingBlocksModify {
                 entries.accept(Items.MANGROVE_BUTTON);
                 entries.accept(Blocks_Init.MANGROVE_WALL.asItem());
                 entries.accept(Blocks_Init.LAYERED_MANGROVE_PLANKS.asItem());
+                entries.accept(Blocks_Init.MANGROVE_WOOD_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_MANGROVE_WOOD.asItem());
 
                 entries.accept(Items.CHERRY_LOG);
                 entries.accept(Items.CHERRY_WOOD);
@@ -143,6 +156,8 @@ public class CreativeTabBuildingBlocksModify {
                 entries.accept(Items.CHERRY_BUTTON);
                 entries.accept(Blocks_Init.CHERRY_WALL.asItem());
                 entries.accept(Blocks_Init.LAYERED_CHERRY_PLANKS.asItem());
+                entries.accept(Blocks_Init.CHERRY_WOOD_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_CHERRY_WOOD.asItem());
 
                 entries.accept(Items.PALE_OAK_LOG);
                 entries.accept(Items.PALE_OAK_WOOD);
@@ -159,6 +174,8 @@ public class CreativeTabBuildingBlocksModify {
                 entries.accept(Items.PALE_OAK_BUTTON);
                 entries.accept(Blocks_Init.PALE_OAK_WALL.asItem());
                 entries.accept(Blocks_Init.LAYERED_PALE_OAK_PLANKS.asItem());
+                entries.accept(Blocks_Init.PALE_OAK_WOOD_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_PALE_OAK_WOOD.asItem());
 
                 entries.accept(Items.BAMBOO_BLOCK);
                 entries.accept(Items.STRIPPED_BAMBOO_BLOCK);
@@ -192,6 +209,8 @@ public class CreativeTabBuildingBlocksModify {
                 entries.accept(Items.CRIMSON_BUTTON);
                 entries.accept(Blocks_Init.CRIMSON_WALL.asItem());
                 entries.accept(Blocks_Init.LAYERED_CRIMSON_PLANKS.asItem());
+                entries.accept(Blocks_Init.CRIMSON_HYPHAE_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_CRIMSON_HYPHAE.asItem());
 
                 entries.accept(Items.WARPED_STEM);
                 entries.accept(Items.WARPED_HYPHAE);
@@ -208,6 +227,8 @@ public class CreativeTabBuildingBlocksModify {
                 entries.accept(Items.WARPED_BUTTON);
                 entries.accept(Blocks_Init.WARPED_WALL.asItem());
                 entries.accept(Blocks_Init.LAYERED_WARPED_PLANKS.asItem());
+                entries.accept(Blocks_Init.WARPED_HYPHAE_WALL.asItem());
+                entries.accept(Blocks_Init.LAYERED_WARPED_HYPHAE.asItem());
             }
         );
     }
