@@ -23,10 +23,10 @@ import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.ScheduledTickAccess;
 
 
-public class MultiFacingLayeredBlock extends Block implements SimpleWaterloggedBlock {
-    public static final MapCodec<MultiFacingLayeredBlock> CODEC =
-            simpleCodec(MultiFacingLayeredBlock::new);
-    public MapCodec<MultiFacingLayeredBlock> codec() {
+public class FacingLayeredBlock extends Block implements SimpleWaterloggedBlock {
+    public static final MapCodec<FacingLayeredBlock> CODEC =
+            simpleCodec(FacingLayeredBlock::new);
+    public MapCodec<FacingLayeredBlock> codec() {
         return CODEC;
     }
 
@@ -39,7 +39,7 @@ public class MultiFacingLayeredBlock extends Block implements SimpleWaterloggedB
     public static final VoxelShape[] LAYERS_SOUTH;
     public static final VoxelShape[] LAYERS_WEST;
     public static final VoxelShape[] LAYERS_EAST;
-    public MultiFacingLayeredBlock(BlockBehaviour.Properties properties) {
+    public FacingLayeredBlock(BlockBehaviour.Properties properties) {
         super(properties);
         this.registerDefaultState(this.stateDefinition.any()
                 .setValue(FACING, Direction.UP)
@@ -58,16 +58,16 @@ public class MultiFacingLayeredBlock extends Block implements SimpleWaterloggedB
         boolean water = ctx.getLevel()
                 .getFluidState(pos)
                 .getType() == Fluids.WATER;
-        return state.setValue(WATERLOGGED, water && state.getValue(LAYERS) < 15);
+        return state.setValue(WATERLOGGED, water && state.getValue(LAYERS) < 16);
     }
     public FluidState getFluidState(BlockState state) {
-        return state.getValue(WATERLOGGED) && state.getValue(LAYERS) < 15
+        return state.getValue(WATERLOGGED) && state.getValue(LAYERS) < 16
                 ? Fluids.WATER.getSource(false)
                 : Fluids.EMPTY.defaultFluidState();
     }
     public BlockState updateShape(BlockState state, LevelReader level, ScheduledTickAccess ticks, BlockPos pos, Direction dir, BlockPos neighborPos, BlockState neighborState, RandomSource random) {
 
-        if (state.getValue(LAYERS) == 15 && state.getValue(WATERLOGGED)) {
+        if (state.getValue(LAYERS) == 16 && state.getValue(WATERLOGGED)) {
             return state.setValue(WATERLOGGED, false);
         }
         if (state.getValue(WATERLOGGED)) {
