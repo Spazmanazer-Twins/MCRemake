@@ -1,420 +1,516 @@
 {
   "variants": {
     "facing=up,layers=1": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_1"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_1",
+	  "uvlock": true
     },
 	"facing=up,layers=2": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_2"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_2",
+	  "uvlock": true
     },
 	"facing=up,layers=3": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_3"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_3",
+	  "uvlock": true
     },
 	"facing=up,layers=4": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_4"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_4",
+	  "uvlock": true
     },
 	"facing=up,layers=5": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_5"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_5",
+	  "uvlock": true
     },
 	"facing=up,layers=6": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_6"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_6",
+	  "uvlock": true
     },
 	"facing=up,layers=7": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_7"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_7",
+	  "uvlock": true
     },
 	"facing=up,layers=8": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_8"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_8",
+	  "uvlock": true
     },
 	"facing=up,layers=9": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_9"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_9",
+	  "uvlock": true
     },
 	"facing=up,layers=10": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_10"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_10",
+	  "uvlock": true
     },
 	"facing=up,layers=11": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_11"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_11",
+	  "uvlock": true
     },
 	"facing=up,layers=12": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_12"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_12",
+	  "uvlock": true
     },
 	"facing=up,layers=13": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_13"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_13",
+	  "uvlock": true
     },
 	"facing=up,layers=14": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_14"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_14",
+	  "uvlock": true
     },
 	"facing=up,layers=15": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_15"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_15",
+	  "uvlock": true
     },
 	"facing=up,layers=16": {
-      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_16"
+      "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_16",
+	  "uvlock": true
     },
 	"facing=down,layers=1": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_1",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=down,layers=2": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_2",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=down,layers=3": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_3",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=down,layers=4": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_4",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=down,layers=5": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_5",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=down,layers=6": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_6",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=down,layers=7": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_7",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=down,layers=8": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_8",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=down,layers=9": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_9",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=down,layers=10": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_10",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=down,layers=11": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_11",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=down,layers=12": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_12",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=down,layers=13": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_13",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=down,layers=14": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_14",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=down,layers=15": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_15",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=down,layers=16": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_16",
-      "x": 180
+      "x": 180,
+	  "uvlock": true
     },
 	"facing=north,layers=1": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_1",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=north,layers=2": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_2",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=north,layers=3": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_3",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=north,layers=4": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_4",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=north,layers=5": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_5",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=north,layers=6": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_6",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=north,layers=7": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_7",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=north,layers=8": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_8",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=north,layers=9": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_9",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=north,layers=10": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_10",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=north,layers=11": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_11",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=north,layers=12": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_12",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=north,layers=13": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_13",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=north,layers=14": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_14",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=north,layers=15": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_15",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=north,layers=16": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_16",
-      "x": 90
+      "x": 90,
+	  "uvlock": true
     },
 	"facing=south,layers=1": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_1",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=south,layers=2": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_2",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=south,layers=3": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_3",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=south,layers=4": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_4",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=south,layers=5": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_5",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=south,layers=6": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_6",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=south,layers=7": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_7",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=south,layers=8": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_8",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=south,layers=9": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_9",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=south,layers=10": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_10",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=south,layers=11": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_11",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=south,layers=12": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_12",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=south,layers=13": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_13",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=south,layers=14": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_14",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=south,layers=15": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_15",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=south,layers=16": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_16",
       "x": 90,
-      "y": 180
+      "y": 180,
+	  "uvlock": true
     },
 	"facing=west,layers=1": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_1",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=west,layers=2": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_2",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=west,layers=3": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_3",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=west,layers=4": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_4",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=west,layers=5": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_5",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=west,layers=6": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_6",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=west,layers=7": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_7",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=west,layers=8": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_8",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=west,layers=9": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_9",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=west,layers=10": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_10",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=west,layers=11": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_11",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=west,layers=12": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_12",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=west,layers=13": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_13",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=west,layers=14": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_14",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=west,layers=15": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_15",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=west,layers=16": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_16",
       "x": 90,
-      "y": 270
+      "y": 270,
+	  "uvlock": true
     },
 	"facing=east,layers=1": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_1",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     },
 	"facing=east,layers=2": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_2",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     },
 	"facing=east,layers=3": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_3",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     },
 	"facing=east,layers=4": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_4",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     },
 	"facing=east,layers=5": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_5",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     },
 	"facing=east,layers=6": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_6",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     },
 	"facing=east,layers=7": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_7",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     },
 	"facing=east,layers=8": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_8",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     },
 	"facing=east,layers=9": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_9",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     },
 	"facing=east,layers=10": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_10",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     },
 	"facing=east,layers=11": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_11",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     },
 	"facing=east,layers=12": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_12",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     },
 	"facing=east,layers=13": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_13",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     },
 	"facing=east,layers=14": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_14",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     },
 	"facing=east,layers=15": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_15",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     },
 	"facing=east,layers=16": {
       "model": "minecraft:block/overworld/tree/bamboo/layered_bamboo_planks/layered_bamboo_planks_16",
       "x": 90,
-      "y": 90
+      "y": 90,
+	  "uvlock": true
     }
   }
 }
