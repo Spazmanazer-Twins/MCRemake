@@ -8,14 +8,13 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.WallBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
 
 import java.util.function.Function;
+
 
 public class Blocks_Init {
     private static Block register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties settings, boolean shouldRegisterItem) {
@@ -46,6 +45,7 @@ public class Blocks_Init {
     private static ResourceKey<Item> keyOfItem(String name) {
         return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(ID_Init.MOD_ID, name));
     }
+
     public static void initialize() {}
 
     public static final Block OAK_WALL = register("oak_wall", WallBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sound(SoundType.WOOD).ignitedByLava().forceSolidOn(), true);
@@ -97,4 +97,17 @@ public class Blocks_Init {
     public static final Block LAYERED_MANGROVE_WOOD = register("layered_mangrove_wood", FacingLayeredBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_RED).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sound(SoundType.WOOD).ignitedByLava().forceSolidOn(), true);
     public static final Block LAYERED_CRIMSON_HYPHAE = register("layered_crimson_hyphae", FacingLayeredBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.CRIMSON_STEM).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sound(SoundType.WOOD).forceSolidOn(), true);
     public static final Block LAYERED_WARPED_HYPHAE = register("layered_warped_hyphae", FacingLayeredBlock::new, BlockBehaviour.Properties.of().mapColor(MapColor.WARPED_STEM).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sound(SoundType.WOOD).forceSolidOn(), true);
+
+    public static final Block OAK_WOOD_STAIRS = register("oak_wood_stairs", properties -> new StairBlock(Blocks.OAK_WOOD.defaultBlockState(), properties), BlockBehaviour.Properties.of().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sound(SoundType.WOOD).ignitedByLava().forceSolidOn(), true);
+    public static final Block SPRUCE_WOOD_STAIRS = register("spruce_wood_stairs", properties -> new StairBlock(Blocks.SPRUCE_WOOD.defaultBlockState(), properties), BlockBehaviour.Properties.of().mapColor(MapColor.PODZOL).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sound(SoundType.WOOD).ignitedByLava().forceSolidOn(), true);
+    public static final Block BIRCH_WOOD_STAIRS = register("birch_wood_stairs", properties -> new StairBlock(Blocks.BIRCH_WOOD.defaultBlockState(), properties), BlockBehaviour.Properties.of().mapColor(MapColor.SAND).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sound(SoundType.WOOD).ignitedByLava().forceSolidOn(), true);
+    public static final Block JUNGLE_WOOD_STAIRS = register("jungle_wood_stairs", properties -> new StairBlock(Blocks.JUNGLE_WOOD.defaultBlockState(), properties), BlockBehaviour.Properties.of().mapColor(MapColor.DIRT).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sound(SoundType.WOOD).ignitedByLava().forceSolidOn(), true);
+    public static final Block ACACIA_WOOD_STAIRS = register("acacia_wood_stairs", properties -> new StairBlock(Blocks.ACACIA_WOOD.defaultBlockState(), properties), BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_ORANGE).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sound(SoundType.WOOD).ignitedByLava().forceSolidOn(), true);
+    public static final Block CHERRY_WOOD_STAIRS = register("cherry_wood_stairs", properties -> new StairBlock(Blocks.CHERRY_WOOD.defaultBlockState(), properties), BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_WHITE).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sound(SoundType.WOOD).ignitedByLava().forceSolidOn(), true);
+    public static final Block DARK_OAK_WOOD_STAIRS = register("dark_oak_wood_stairs", properties -> new StairBlock(Blocks.DARK_OAK_WOOD.defaultBlockState(), properties), BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sound(SoundType.WOOD).ignitedByLava().forceSolidOn(), true);
+    public static final Block PALE_OAK_WOOD_STAIRS = register("pale_oak_wood_stairs", properties -> new StairBlock(Blocks.PALE_OAK_WOOD.defaultBlockState(), properties), BlockBehaviour.Properties.of().mapColor(MapColor.QUARTZ).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sound(SoundType.WOOD).ignitedByLava().forceSolidOn(), true);
+    public static final Block MANGROVE_WOOD_STAIRS = register("mangrove_wood_stairs", properties -> new StairBlock(Blocks.MANGROVE_WOOD.defaultBlockState(), properties), BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_RED).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sound(SoundType.WOOD).ignitedByLava().forceSolidOn(), true);
+    public static final Block CRIMSON_HYPHAE_STAIRS = register("crimson_hyphae_stairs", properties -> new StairBlock(Blocks.CRIMSON_HYPHAE.defaultBlockState(), properties), BlockBehaviour.Properties.of().mapColor(MapColor.CRIMSON_STEM).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sound(SoundType.NETHER_WOOD).forceSolidOn(), true);
+    public static final Block WARPED_HYPHAE_STAIRS = register("warped_hyphae_stairs", properties -> new StairBlock(Blocks.WARPED_HYPHAE.defaultBlockState(), properties), BlockBehaviour.Properties.of().mapColor(MapColor.WARPED_STEM).instrument(NoteBlockInstrument.BASS).strength(2.0F, 3.0F).sound(SoundType.NETHER_WOOD).forceSolidOn(), true);
+
 }
