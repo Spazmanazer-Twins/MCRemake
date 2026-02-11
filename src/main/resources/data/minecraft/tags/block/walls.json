@@ -37,6 +37,17 @@
     "minecraft:mangrove_wall",
     "minecraft:bamboo_wall",
     "minecraft:crimson_wall",
-    "minecraft:warped_wall"
+    "minecraft:warped_wall",
+    "minecraft:oak_wood_wall",
+    "minecraft:spruce_wood_wall",
+    "minecraft:birch_wood_wall",
+    "minecraft:jungle_wood_wall",
+    "minecraft:acacia_wood_wall",
+    "minecraft:cherry_wood_wall",
+    "minecraft:dark_oak_wood_wall",
+    "minecraft:pale_oak_wood_wall",
+    "minecraft:mangrove_wood_wall",
+    "minecraft:crimson_hyphae_wall",
+    "minecraft:warped_hyphae_wall"
   ]
 }
