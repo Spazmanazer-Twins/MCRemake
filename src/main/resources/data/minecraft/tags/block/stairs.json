@@ -46,6 +46,17 @@
     "minecraft:tuff_stairs",
     "minecraft:polished_tuff_stairs",
     "minecraft:tuff_brick_stairs",
-    "minecraft:resin_brick_stairs"
+    "minecraft:resin_brick_stairs",
+    "minecraft:oak_wood_stairs",
+    "minecraft:spruce_wood_stairs",
+    "minecraft:birch_wood_stairs",
+    "minecraft:jungle_wood_stairs",
+    "minecraft:acacia_wood_stairs",
+    "minecraft:cherry_wood_stairs",
+    "minecraft:dark_oak_wood_stairs",
+    "minecraft:pale_oak_wood_stairs",
+    "minecraft:mangrove_wood_stairs",
+    "minecraft:crimson_hyphae_stairs",
+    "minecraft:warped_hyphae_stairs"
   ]
 }
