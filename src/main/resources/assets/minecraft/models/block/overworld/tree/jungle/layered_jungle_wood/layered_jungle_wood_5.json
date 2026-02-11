@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/templates_and_shapes/layers/layer_5",
+  "textures": {
+    "base": "minecraft:block/jungle_log"
+  }
+}

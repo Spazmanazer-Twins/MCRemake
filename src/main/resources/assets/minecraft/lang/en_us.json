@@ -280,5 +280,29 @@
 "block.minecraft.layered_mangrove_planks": "Layered mangrove planks",
 "block.minecraft.layered_bamboo_planks": "Layered bamboo planks",
 "block.minecraft.layered_crimson_planks": "Layered crimson planks",
-"block.minecraft.layered_warped_planks": "Layered warped planks"
+"block.minecraft.layered_warped_planks": "Layered warped planks",
+
+"block.minecraft.oak_wood_wall": "Oak wood wall",
+"block.minecraft.spruce_wood_wall": "Spruce wood wall",
+"block.minecraft.birch_wood_wall": "Birch wood wall",
+"block.minecraft.jungle_wood_wall": "Jungle wood wall",
+"block.minecraft.acacia_wood_wall": "Acacia wood wall",
+"block.minecraft.cherry_wood_wall": "Cherry wood wall",
+"block.minecraft.dark_oak_wood_wall": "Dark oak wood wall",
+"block.minecraft.pale_oak_wood_wall": "Pale oak wood wall",
+"block.minecraft.mangrove_wood_wall": "Mangrove wood wall",
+"block.minecraft.crimson_hyphae_wall": "Crimson wood wall",
+"block.minecraft.warped_hyphae_wall": "Warped wood wall",
+
+"block.minecraft.layered_oak_wood": "Layered oak wood",
+"block.minecraft.layered_spruce_wood": "Layered spruce wood",
+"block.minecraft.layered_birch_wood": "Layered birch wood",
+"block.minecraft.layered_jungle_wood": "Layered jungle wood",
+"block.minecraft.layered_acacia_wood": "Layered acacia wood",
+"block.minecraft.layered_cherry_wood": "Layered cherry wood",
+"block.minecraft.layered_dark_oak_wood": "Layered dark oak wood",
+"block.minecraft.layered_pale_oak_wood": "Layered pale oak wood",
+"block.minecraft.layered_mangrove_wood": "Layered mangrove wood",
+"block.minecraft.layered_crimson_hyphae": "Layered crimson hyphae",
+"block.minecraft.layered_warped_hyphae": "Layered warped hyphae"
 }

@@ -280,5 +280,29 @@
 "block.minecraft.layered_mangrove_planks": "Многослойные мангровые доски",
 "block.minecraft.layered_bamboo_planks": "Многослойные бамбуковые доски",
 "block.minecraft.layered_crimson_planks": "Многослойные багровые доски",
-"block.minecraft.layered_warped_planks": "Многослойные искажённые доски"
+"block.minecraft.layered_warped_planks": "Многослойные искажённые доски",
+
+"block.minecraft.oak_wood_wall": "Стена из дубовой древесины",
+"block.minecraft.spruce_wood_wall": "Стена из еловой древесины",
+"block.minecraft.birch_wood_wall": "Стена из берёзовой древесины",
+"block.minecraft.jungle_wood_wall": "Стена из древесины тропического дерева",
+"block.minecraft.acacia_wood_wall": "Стена из акациевой древесины",
+"block.minecraft.cherry_wood_wall": "Стена из вишнёвой древесины",
+"block.minecraft.dark_oak_wood_wall": "Стена из древесины тёмного дуба",
+"block.minecraft.pale_oak_wood_wall": "Стена из древесины бледного дуба",
+"block.minecraft.mangrove_wood_wall": "Стена из мангровой древесины",
+"block.minecraft.crimson_hyphae_wall": "Стена из багровой гифы",
+"block.minecraft.warped_hyphae_wall": "Стена из искажённой гифы",
+
+"block.minecraft.layered_oak_wood": "Многослойная дубовая древесина",
+"block.minecraft.layered_spruce_wood": "Многослойная еловая древесина",
+"block.minecraft.layered_birch_wood": "Многослойная берёзовая древесина",
+"block.minecraft.layered_jungle_wood": "Многослойная древесина из тропического дерева",
+"block.minecraft.layered_acacia_wood": "Многослойная акациевая древесина",
+"block.minecraft.layered_cherry_wood": "Многослойная вишнёвая древесина",
+"block.minecraft.layered_dark_oak_wood": "Многослойная древесина из тёмного дуба",
+"block.minecraft.layered_pale_oak_wood": "Многослойная древесина из бледного дуба",
+"block.minecraft.layered_mangrove_wood": "Многослойная мангровая древесина",
+"block.minecraft.layered_crimson_hyphae": "Многослойные багровые гифы",
+"block.minecraft.layered_warped_hyphae": "Многослойные искажённые гифы"
 }

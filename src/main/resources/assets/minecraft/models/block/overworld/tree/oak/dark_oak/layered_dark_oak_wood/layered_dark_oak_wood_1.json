@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/templates_and_shapes/layers/layer_1",
+  "textures": {
+    "base": "minecraft:block/dark_oak_log"
+  }
+}

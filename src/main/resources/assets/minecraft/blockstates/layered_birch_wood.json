@@ -1,0 +1,516 @@
+{
+  "variants": {
+    "facing=up,layers=1": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_1",
+	  "uvlock": false
+    },
+	"facing=up,layers=2": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_2",
+	  "uvlock": false
+    },
+	"facing=up,layers=3": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_3",
+	  "uvlock": false
+    },
+	"facing=up,layers=4": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_4",
+	  "uvlock": false
+    },
+	"facing=up,layers=5": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_5",
+	  "uvlock": false
+    },
+	"facing=up,layers=6": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_6",
+	  "uvlock": false
+    },
+	"facing=up,layers=7": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_7",
+	  "uvlock": false
+    },
+	"facing=up,layers=8": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_8",
+	  "uvlock": false
+    },
+	"facing=up,layers=9": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_9",
+	  "uvlock": false
+    },
+	"facing=up,layers=10": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_10",
+	  "uvlock": false
+    },
+	"facing=up,layers=11": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_11",
+	  "uvlock": false
+    },
+	"facing=up,layers=12": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_12",
+	  "uvlock": false
+    },
+	"facing=up,layers=13": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_13",
+	  "uvlock": false
+    },
+	"facing=up,layers=14": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_14",
+	  "uvlock": false
+    },
+	"facing=up,layers=15": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_15",
+	  "uvlock": false
+    },
+	"facing=up,layers=16": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_16",
+	  "uvlock": false
+    },
+	"facing=down,layers=1": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_1",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=down,layers=2": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_2",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=down,layers=3": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_3",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=down,layers=4": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_4",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=down,layers=5": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_5",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=down,layers=6": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_6",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=down,layers=7": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_7",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=down,layers=8": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_8",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=down,layers=9": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_9",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=down,layers=10": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_10",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=down,layers=11": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_11",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=down,layers=12": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_12",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=down,layers=13": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_13",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=down,layers=14": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_14",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=down,layers=15": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_15",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=down,layers=16": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_16",
+      "x": 180,
+	  "uvlock": false
+    },
+	"facing=north,layers=1": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_1",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=north,layers=2": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_2",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=north,layers=3": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_3",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=north,layers=4": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_4",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=north,layers=5": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_5",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=north,layers=6": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_6",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=north,layers=7": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_7",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=north,layers=8": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_8",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=north,layers=9": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_9",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=north,layers=10": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_10",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=north,layers=11": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_11",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=north,layers=12": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_12",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=north,layers=13": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_13",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=north,layers=14": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_14",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=north,layers=15": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_15",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=north,layers=16": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_16",
+      "x": 90,
+	  "uvlock": false
+    },
+	"facing=south,layers=1": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_1",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=south,layers=2": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_2",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=south,layers=3": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_3",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=south,layers=4": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_4",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=south,layers=5": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_5",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=south,layers=6": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_6",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=south,layers=7": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_7",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=south,layers=8": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_8",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=south,layers=9": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_9",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=south,layers=10": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_10",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=south,layers=11": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_11",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=south,layers=12": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_12",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=south,layers=13": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_13",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=south,layers=14": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_14",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=south,layers=15": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_15",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=south,layers=16": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_16",
+      "x": 90,
+      "y": 180,
+	  "uvlock": false
+    },
+	"facing=west,layers=1": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_1",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=west,layers=2": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_2",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=west,layers=3": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_3",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=west,layers=4": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_4",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=west,layers=5": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_5",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=west,layers=6": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_6",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=west,layers=7": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_7",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=west,layers=8": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_8",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=west,layers=9": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_9",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=west,layers=10": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_10",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=west,layers=11": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_11",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=west,layers=12": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_12",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=west,layers=13": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_13",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=west,layers=14": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_14",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=west,layers=15": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_15",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=west,layers=16": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_16",
+      "x": 90,
+      "y": 270,
+	  "uvlock": false
+    },
+	"facing=east,layers=1": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_1",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    },
+	"facing=east,layers=2": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_2",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    },
+	"facing=east,layers=3": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_3",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    },
+	"facing=east,layers=4": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_4",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    },
+	"facing=east,layers=5": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_5",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    },
+	"facing=east,layers=6": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_6",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    },
+	"facing=east,layers=7": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_7",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    },
+	"facing=east,layers=8": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_8",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    },
+	"facing=east,layers=9": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_9",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    },
+	"facing=east,layers=10": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_10",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    },
+	"facing=east,layers=11": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_11",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    },
+	"facing=east,layers=12": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_12",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    },
+	"facing=east,layers=13": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_13",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    },
+	"facing=east,layers=14": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_14",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    },
+	"facing=east,layers=15": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_15",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    },
+	"facing=east,layers=16": {
+      "model": "minecraft:block/overworld/tree/birch/layered_birch_wood/layered_birch_wood_16",
+      "x": 90,
+      "y": 90,
+	  "uvlock": false
+    }
+  }
+}
