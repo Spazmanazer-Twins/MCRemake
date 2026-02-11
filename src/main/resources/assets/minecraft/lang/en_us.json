@@ -304,5 +304,17 @@
 "block.minecraft.layered_pale_oak_wood": "Layered pale oak wood",
 "block.minecraft.layered_mangrove_wood": "Layered mangrove wood",
 "block.minecraft.layered_crimson_hyphae": "Layered crimson hyphae",
-"block.minecraft.layered_warped_hyphae": "Layered warped hyphae"
+"block.minecraft.layered_warped_hyphae": "Layered warped hyphae",
+
+"block.minecraft.oak_wood_stairs": "Oak wood stairs",
+"block.minecraft.spruce_wood_stairs": "Spruce wood stairs",
+"block.minecraft.birch_wood_stairs": "Birch wood stairs",
+"block.minecraft.jungle_wood_stairs": "Jungle wood stairs",
+"block.minecraft.acacia_wood_stairs": "Acacia wood stairs",
+"block.minecraft.cherry_wood_stairs": "Cherry wood stairs",
+"block.minecraft.dark_oak_wood_stairs": "Dark oak wood stairs",
+"block.minecraft.pale_oak_wood_stairs": "Pale oak wood stairs",
+"block.minecraft.mangrove_wood_stairs": "Mangrove wood stairs",
+"block.minecraft.crimson_hyphae_stairs": "Crimson wood stairs",
+"block.minecraft.warped_hyphae_stairs": "Warped wood stairs"
 }

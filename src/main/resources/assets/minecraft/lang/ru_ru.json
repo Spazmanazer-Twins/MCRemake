@@ -304,5 +304,17 @@
 "block.minecraft.layered_pale_oak_wood": "Многослойная древесина из бледного дуба",
 "block.minecraft.layered_mangrove_wood": "Многослойная мангровая древесина",
 "block.minecraft.layered_crimson_hyphae": "Многослойные багровые гифы",
-"block.minecraft.layered_warped_hyphae": "Многослойные искажённые гифы"
+"block.minecraft.layered_warped_hyphae": "Многослойные искажённые гифы",
+
+"block.minecraft.oak_wood_stairs": "Ступеньки из дубовой древесины",
+"block.minecraft.spruce_wood_stairs": "Ступеньки из еловой древесины",
+"block.minecraft.birch_wood_stairs": "Ступеньки из берёзовой древесины",
+"block.minecraft.jungle_wood_stairs": "Ступеньки из древесины тропического дерева",
+"block.minecraft.acacia_wood_stairs": "Ступеньки из акациевой древесины",
+"block.minecraft.cherry_wood_stairs": "Ступеньки из вишнёвой древесины",
+"block.minecraft.dark_oak_wood_stairs": "Ступеньки из древесины тёмного дуба",
+"block.minecraft.pale_oak_wood_stairs": "Ступеньки из древесины бледного дуба",
+"block.minecraft.mangrove_wood_stairs": "Ступеньки из мангровой древесины",
+"block.minecraft.crimson_hyphae_stairs": "Ступеньки из багровой гифы",
+"block.minecraft.warped_hyphae_stairs": "Ступеньки из искажённой гифы"
 }
