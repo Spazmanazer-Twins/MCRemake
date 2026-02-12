@@ -13,8 +13,6 @@ public class CreativeTabBuildingBlocksModify {
                 entries.getDisplayStacks().clear();// вкладка отображения
                 entries.getSearchTabStacks().clear();// вкладка поиска
 
-
-
                 entries.accept(Items.OAK_LOG);
                 entries.accept(Items.OAK_WOOD);
                 entries.accept(Items.STRIPPED_OAK_LOG);
@@ -202,6 +200,13 @@ public class CreativeTabBuildingBlocksModify {
                 entries.accept(Items.BAMBOO_BUTTON);
                 entries.accept(Blocks_Init.BAMBOO_WALL.asItem());
                 entries.accept(Blocks_Init.LAYERED_BAMBOO_PLANKS.asItem());
+                entries.accept(Blocks_Init.STRIPPED_BAMBOO_PLANKS.asItem());
+                entries.accept(Blocks_Init.STRIPPED_BAMBOO_STAIRS.asItem());
+                entries.accept(Blocks_Init.STRIPPED_BAMBOO_SLAB.asItem());
+                entries.accept(Blocks_Init.LAYERED_STRIPPED_BAMBOO_PLANKS.asItem());
+                entries.accept(Blocks_Init.LAYERED_BAMBOO_MOSAIC.asItem());
+                entries.accept(Blocks_Init.STRIPPED_BAMBOO_WALL.asItem());
+                entries.accept(Blocks_Init.BAMBOO_MOSAIC_WALL.asItem());
 
                 entries.accept(Items.CRIMSON_STEM);
                 entries.accept(Items.CRIMSON_HYPHAE);
@@ -221,6 +226,8 @@ public class CreativeTabBuildingBlocksModify {
                 entries.accept(Blocks_Init.CRIMSON_HYPHAE_WALL.asItem());
                 entries.accept(Blocks_Init.LAYERED_CRIMSON_HYPHAE.asItem());
                 entries.accept(Blocks_Init.CRIMSON_HYPHAE_STAIRS.asItem());
+                entries.accept(Blocks_Init.CRIMSON_HYPHAE_SLAB.asItem());
+                entries.accept(Blocks_Init.CRIMSON_HYPHAE_FENCE_GATE.asItem());
 
                 entries.accept(Items.WARPED_STEM);
                 entries.accept(Items.WARPED_HYPHAE);
@@ -240,6 +247,8 @@ public class CreativeTabBuildingBlocksModify {
                 entries.accept(Blocks_Init.WARPED_HYPHAE_WALL.asItem());
                 entries.accept(Blocks_Init.LAYERED_WARPED_HYPHAE.asItem());
                 entries.accept(Blocks_Init.WARPED_HYPHAE_STAIRS.asItem());
+                entries.accept(Blocks_Init.WARPED_HYPHAE_SLAB.asItem());
+                entries.accept(Blocks_Init.WARPED_HYPHAE_FENCE_GATE.asItem());
             }
         );
     }
