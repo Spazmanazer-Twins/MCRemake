@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "minecraft:block/bamboo_stairs"
+    "model": "minecraft:block/overworld/tree/bamboo/bamboo_stairs/bamboo_stairs"
   }
 }

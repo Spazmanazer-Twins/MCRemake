@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "minecraft:block/nether/tree/warped/warped_hyphae_slab/warped_hyphae_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/nether/tree/warped/warped_hyphae/warped_hyphae"
+    },
+    "type=top": {
+      "model": "minecraft:block/nether/tree/warped/warped_hyphae_slab/warped_hyphae_slab_top"
+    }
+  }
+}

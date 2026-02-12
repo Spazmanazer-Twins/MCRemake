@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/templates_and_shapes/layers/layer_11",
+  "textures": {
+    "base": "minecraft:block/stripped_bamboo_block"
+  }
+}

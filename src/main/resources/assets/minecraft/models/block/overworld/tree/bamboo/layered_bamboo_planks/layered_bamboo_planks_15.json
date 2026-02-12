@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/templates_and_shapes/layers/layer_15",
   "textures": {
-    "base": "minecraft:block/bamboo_planks"
+    "base": "minecraft:block/bamboo_block"
   }
 }

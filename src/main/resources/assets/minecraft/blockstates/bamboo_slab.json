@@ -1,13 +1,13 @@
 {
   "variants": {
     "type=bottom": {
-      "model": "minecraft:block/bamboo_slab"
+      "model": "minecraft:block/overworld/tree/bamboo/bamboo_slab/bamboo_slab"
     },
     "type=double": {
-      "model": "minecraft:block/bamboo_planks"
+      "model": "minecraft:block/overworld/tree/bamboo/bamboo_planks/bamboo_planks"
     },
     "type=top": {
-      "model": "minecraft:block/bamboo_slab_top"
+      "model": "minecraft:block/overworld/tree/bamboo/bamboo_slab/bamboo_slab_top"
     }
   }
 }
