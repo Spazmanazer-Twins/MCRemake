@@ -50,6 +50,8 @@
     "minecraft:tuff_slab",
     "minecraft:polished_tuff_slab",
     "minecraft:tuff_brick_slab",
-    "minecraft:resin_brick_slab"
+    "minecraft:resin_brick_slab",
+    "minecraft:crimson_hyphae_slab",
+    "minecraft:warped_hyphae_slab"
   ]
 }
